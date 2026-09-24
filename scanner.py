@@ -6,30 +6,29 @@ URL = "https://summerofcode.withgoogle.com/programs/2026/organizations"
 
 with sync_playwright() as p:
 
-    print("Starting browser...")
-
     browser = p.chromium.launch(headless=False)
 
     page = browser.new_page()
 
-    print("Opening GSoC Organizations page...")
+    print("Opening GSoC...")
+
+    # Listen to every network response
+    def handle_response(response):
+
+        url = response.url
+
+        if "api" in url.lower() or "organization" in url.lower():
+            print("NETWORK:", response.status, url)
+
+    page.on("response", handle_response)
 
     page.goto(URL, wait_until="networkidle")
 
-    print("Page loaded!")
-    print("Page title:", page.title())
+    print("\nPage loaded.")
+    print("Title:", page.title())
 
-    page.screenshot(
-        path="gsoc-page.png",
-        full_page=True
-    )
+    page.wait_for_timeout(3000)
 
-    with open("gsoc-page.html", "w", encoding="utf-8") as file:
-        file.write(page.content())
-
-    print("Saved screenshot: gsoc-page.png")
-    print("Saved HTML: gsoc-page.html")
+    print("\nFinished observing network requests.")
 
     browser.close()
-
-    print("Browser closed.")

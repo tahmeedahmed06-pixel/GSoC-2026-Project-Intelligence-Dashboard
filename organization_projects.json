@@ -1,0 +1,2568 @@
+[
+    {
+        "name": "stdlib",
+        "slug": "stdlib",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/stdlib",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/Mh2Oa6l1",
+            "/programs/2026/projects/UpnxnHuL",
+            "/programs/2026/projects/UUCgNDEW",
+            "/programs/2026/projects/sJ7nndHz",
+            "/programs/2026/projects/AOnAAohn"
+        ]
+    },
+    {
+        "name": "BRL-CAD",
+        "slug": "brl-cad",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/brl-cad",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/NYc0KwJO",
+            "/programs/2026/projects/Bb5fzRQS",
+            "/programs/2026/projects/3DJH0uIr",
+            "/programs/2026/projects/xpLHyPVS",
+            "/programs/2026/projects/D7BhEmva",
+            "/programs/2026/projects/Gcne9San",
+            "/programs/2026/projects/QdVvPjPX"
+        ]
+    },
+    {
+        "name": "CNCF",
+        "slug": "cncf",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/cncf",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/2VBsJMhX",
+            "/programs/2026/projects/WOgXdhMZ",
+            "/programs/2026/projects/qbtyohoJ",
+            "/programs/2026/projects/8Jn2MtsT",
+            "/programs/2026/projects/ALTS73J5"
+        ]
+    },
+    {
+        "name": "ArduPilot",
+        "slug": "ardupilot",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/ardupilot",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/kTHHO1JP",
+            "/programs/2026/projects/Als6OJep"
+        ]
+    },
+    {
+        "name": "GNOME Foundation",
+        "slug": "gnome-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gnome-foundation",
+        "project_count": 6,
+        "projects": [
+            "/programs/2026/projects/J5hAVQXj",
+            "/programs/2026/projects/3RpfhszS",
+            "/programs/2026/projects/IS6rBPhP",
+            "/programs/2026/projects/DqHU1wPE",
+            "/programs/2026/projects/NXbUqrGT",
+            "/programs/2026/projects/sWcQc2iG"
+        ]
+    },
+    {
+        "name": "St. Jude Children's Research Hospital",
+        "slug": "st-jude-childrens-research-hospital-ai",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/st-jude-childrens-research-hospital-ai",
+        "project_count": 1,
+        "projects": [
+            "/programs/2026/projects/BNPmlzOg"
+        ]
+    },
+    {
+        "name": "GNU Project",
+        "slug": "gnu-project-av",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gnu-project-av",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/7uHaLbex",
+            "/programs/2026/projects/bZ8djhfN",
+            "/programs/2026/projects/LQ2EwRqi",
+            "/programs/2026/projects/fJwXhksl",
+            "/programs/2026/projects/Q2pKYmUp"
+        ]
+    },
+    {
+        "name": "D Language Foundation",
+        "slug": "d-language-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/d-language-foundation",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/XKzD5Kin",
+            "/programs/2026/projects/lBSttJH4",
+            "/programs/2026/projects/tAUNtJAl"
+        ]
+    },
+    {
+        "name": "Haiku",
+        "slug": "haiku",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/haiku",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/RREhJOxy",
+            "/programs/2026/projects/r1c2esYR",
+            "/programs/2026/projects/SVaJO4T2"
+        ]
+    },
+    {
+        "name": "The OpenROAD Initiative",
+        "slug": "the-openroad-initiative",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-openroad-initiative",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/Hxt4mrXb",
+            "/programs/2026/projects/Tsyc84al",
+            "/programs/2026/projects/vnr10ygM"
+        ]
+    },
+    {
+        "name": "TARDIS RT Collaboration",
+        "slug": "tardis-rt-collaboration",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/tardis-rt-collaboration",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/LIZ3ldjS",
+            "/programs/2026/projects/vOFfl4Af"
+        ]
+    },
+    {
+        "name": "OpenAFS",
+        "slug": "openafs",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/openafs",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/rJEigtur",
+            "/programs/2026/projects/22zPYekQ",
+            "/programs/2026/projects/6JUSRbFZ"
+        ]
+    },
+    {
+        "name": "GNU Mailman",
+        "slug": "gnu-mailman",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gnu-mailman",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/k9uqDXsN",
+            "/programs/2026/projects/6ftc6bz0",
+            "/programs/2026/projects/68eNmQr1"
+        ]
+    },
+    {
+        "name": "The Libreswan Project",
+        "slug": "the-libreswan-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-libreswan-project",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/yW1PFL6D",
+            "/programs/2026/projects/vT6e1MsJ",
+            "/programs/2026/projects/83fdZyze"
+        ]
+    },
+    {
+        "name": "PostgreSQL",
+        "slug": "postgresql",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/postgresql",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/C2VHxjcm",
+            "/programs/2026/projects/3bhCx5P6",
+            "/programs/2026/projects/9oNNEll5",
+            "/programs/2026/projects/Or6qQHna",
+            "/programs/2026/projects/5iElMjO7",
+            "/programs/2026/projects/yuVaYMvT",
+            "/programs/2026/projects/22YldITP"
+        ]
+    },
+    {
+        "name": "Kiwix",
+        "slug": "kiwix",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/kiwix",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/ToJCTHps",
+            "/programs/2026/projects/TJcJrzUC",
+            "/programs/2026/projects/OfYnIfAD"
+        ]
+    },
+    {
+        "name": "The JPF team",
+        "slug": "the-jpf-team-hg",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-jpf-team-hg",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/8rNFgFox",
+            "/programs/2026/projects/st912I1R"
+        ]
+    },
+    {
+        "name": "LibreOffice",
+        "slug": "libreoffice",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/libreoffice",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/QcZIdqyr",
+            "/programs/2026/projects/WdCsAb7P",
+            "/programs/2026/projects/9V8b3QvL"
+        ]
+    },
+    {
+        "name": "FLARE",
+        "slug": "flare",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/flare",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/MNBryJ8N",
+            "/programs/2026/projects/xr53bwcd",
+            "/programs/2026/projects/G7sUi1JS",
+            "/programs/2026/projects/vORTUrPS"
+        ]
+    },
+    {
+        "name": "NixOS Foundation",
+        "slug": "nixos-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/nixos-foundation",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/fnPvwYYw",
+            "/programs/2026/projects/0azL14sd",
+            "/programs/2026/projects/SgKKUkqC",
+            "/programs/2026/projects/FsdWFD05"
+        ]
+    },
+    {
+        "name": "The NetBSD Foundation",
+        "slug": "the-netbsd-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-netbsd-foundation",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/9duZ1dcx",
+            "/programs/2026/projects/mifwPqCq",
+            "/programs/2026/projects/5H1Um3ix",
+            "/programs/2026/projects/rqHXsGvy",
+            "/programs/2026/projects/JnN2y1Pq"
+        ]
+    },
+    {
+        "name": "KubeVirt",
+        "slug": "kubevirt",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/kubevirt",
+        "project_count": 1,
+        "projects": [
+            "/programs/2026/projects/6mDtvgRu"
+        ]
+    },
+    {
+        "name": "FreeCAD",
+        "slug": "freecad",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/freecad",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/lne1ugHq",
+            "/programs/2026/projects/VdVDpBZw",
+            "/programs/2026/projects/VAc9SHdM",
+            "/programs/2026/projects/Ls1lJhGB"
+        ]
+    },
+    {
+        "name": "Ste||ar group",
+        "slug": "stear-group",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/stear-group",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/UaNAWX5t",
+            "/programs/2026/projects/nqqJA0B7",
+            "/programs/2026/projects/dVmsd5sX",
+            "/programs/2026/projects/g5NclTGx"
+        ]
+    },
+    {
+        "name": "Stichting SU2",
+        "slug": "stichting-su2",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/stichting-su2",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/MLmP0oeO",
+            "/programs/2026/projects/uo39EGyW",
+            "/programs/2026/projects/PDaaH2mt"
+        ]
+    },
+    {
+        "name": "Joplin",
+        "slug": "joplin",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/joplin",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/ADNtryzy",
+            "/programs/2026/projects/cEuiUo24",
+            "/programs/2026/projects/Bb4wNvvb",
+            "/programs/2026/projects/PopnfR3x",
+            "/programs/2026/projects/qvspDcVq"
+        ]
+    },
+    {
+        "name": "Open Transit Software Foundation",
+        "slug": "open-transit-software-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/open-transit-software-foundation",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/StTVAp8t",
+            "/programs/2026/projects/plItTyeU",
+            "/programs/2026/projects/hqXqJ61G",
+            "/programs/2026/projects/5ci9G7Pv"
+        ]
+    },
+    {
+        "name": "Learning Unlimited",
+        "slug": "learning-unlimited",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/learning-unlimited",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/ciiJGiS3",
+            "/programs/2026/projects/lpULfSR3",
+            "/programs/2026/projects/w2lfRbJ0"
+        ]
+    },
+    {
+        "name": "CRIU",
+        "slug": "criu",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/criu",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/cTURFyRR",
+            "/programs/2026/projects/xk3R6xhq",
+            "/programs/2026/projects/iGyBNWXX",
+            "/programs/2026/projects/67c1nTmK"
+        ]
+    },
+    {
+        "name": "Ruby",
+        "slug": "ruby",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/ruby",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/2myfjj2I",
+            "/programs/2026/projects/hb6aCL4h",
+            "/programs/2026/projects/BkEGZZ1M",
+            "/programs/2026/projects/Vp8HuHnf"
+        ]
+    },
+    {
+        "name": "Kubeflow",
+        "slug": "kubeflow",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/kubeflow",
+        "project_count": 8,
+        "projects": [
+            "/programs/2026/projects/ooUv0Oe8",
+            "/programs/2026/projects/hMnzCn5S",
+            "/programs/2026/projects/B2R4GHab",
+            "/programs/2026/projects/nBywCSvb",
+            "/programs/2026/projects/85k9LS8P",
+            "/programs/2026/projects/WoqK9Jml",
+            "/programs/2026/projects/WFcSOA1z",
+            "/programs/2026/projects/ErYS3o18"
+        ]
+    },
+    {
+        "name": "KDE Community",
+        "slug": "kde-community",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/kde-community",
+        "project_count": 11,
+        "projects": [
+            "/programs/2026/projects/mLmdCgIK",
+            "/programs/2026/projects/toXhs09z",
+            "/programs/2026/projects/Bn8iKvhz",
+            "/programs/2026/projects/kuNn3t90",
+            "/programs/2026/projects/m20BaADR",
+            "/programs/2026/projects/9nPHZsTJ",
+            "/programs/2026/projects/cBR8dzs0",
+            "/programs/2026/projects/9obK9tXk",
+            "/programs/2026/projects/qyiUD0bH",
+            "/programs/2026/projects/oyJMgU3S",
+            "/programs/2026/projects/tGyN2GMO"
+        ]
+    },
+    {
+        "name": "Apache Software Foundation",
+        "slug": "apache-software-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/apache-software-foundation",
+        "project_count": 34,
+        "projects": [
+            "/programs/2026/projects/O2aXX4nO",
+            "/programs/2026/projects/KKYf9xVe",
+            "/programs/2026/projects/WmYsksGR",
+            "/programs/2026/projects/wZqUmNtU",
+            "/programs/2026/projects/B7F5Onru",
+            "/programs/2026/projects/13nE0cqE",
+            "/programs/2026/projects/lYM2PIHH",
+            "/programs/2026/projects/tMITj01O",
+            "/programs/2026/projects/m115hcVw",
+            "/programs/2026/projects/i4iBnOKd",
+            "/programs/2026/projects/HDgC9iuv",
+            "/programs/2026/projects/TWTRyYWE",
+            "/programs/2026/projects/CPgor19M",
+            "/programs/2026/projects/02MDYu4k",
+            "/programs/2026/projects/oh0ONhJJ",
+            "/programs/2026/projects/AK4a1kRf",
+            "/programs/2026/projects/myePOxNA",
+            "/programs/2026/projects/ZNy4MXnE",
+            "/programs/2026/projects/yRedsyg7",
+            "/programs/2026/projects/q8lIIAsz",
+            "/programs/2026/projects/P3SXbkYE",
+            "/programs/2026/projects/x13a0jGL",
+            "/programs/2026/projects/ZzWBmslv",
+            "/programs/2026/projects/EranAuJ7",
+            "/programs/2026/projects/tygGtKQo",
+            "/programs/2026/projects/D5s5f4un",
+            "/programs/2026/projects/ugNM3faX",
+            "/programs/2026/projects/3EGPjmNm",
+            "/programs/2026/projects/SDjkhRUZ",
+            "/programs/2026/projects/7AMHeXh7",
+            "/programs/2026/projects/9OKlqIS9",
+            "/programs/2026/projects/Iwfw0K3a",
+            "/programs/2026/projects/6YE38WZn",
+            "/programs/2026/projects/AYyR8RGN"
+        ]
+    },
+    {
+        "name": "LibreCube Initiative",
+        "slug": "librecube-initiative",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/librecube-initiative",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/JRzQBYUb",
+            "/programs/2026/projects/a1uvPzxU",
+            "/programs/2026/projects/FH96uSWv"
+        ]
+    },
+    {
+        "name": "Konflux",
+        "slug": "konflux",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/konflux",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/EnejDA6z",
+            "/programs/2026/projects/VY4ib9Aj",
+            "/programs/2026/projects/gQ5QIazr"
+        ]
+    },
+    {
+        "name": "National Resource for Network Biology (NRNB)",
+        "slug": "national-resource-for-network-biology-nrnb",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/national-resource-for-network-biology-nrnb",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/pLlsx1hC",
+            "/programs/2026/projects/o7J0WIL6",
+            "/programs/2026/projects/OWrsryC7",
+            "/programs/2026/projects/v2Yd4fXy",
+            "/programs/2026/projects/ek4xmFSR",
+            "/programs/2026/projects/ti3yxKbB",
+            "/programs/2026/projects/KRgVknHK"
+        ]
+    },
+    {
+        "name": "Boa",
+        "slug": "boa",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/boa",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/3Td1SaQr",
+            "/programs/2026/projects/3nqcgbYe"
+        ]
+    },
+    {
+        "name": "Jitsi",
+        "slug": "jitsi",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/jitsi",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/VSdnQjTF",
+            "/programs/2026/projects/Aet96xCc",
+            "/programs/2026/projects/DrgSMJPQ",
+            "/programs/2026/projects/IgidUyra",
+            "/programs/2026/projects/GseggmSv"
+        ]
+    },
+    {
+        "name": "Open Genome Informatics",
+        "slug": "open-genome-informatics",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/open-genome-informatics",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/i4pgqs94",
+            "/programs/2026/projects/xFs30ir6",
+            "/programs/2026/projects/wW6p678Z"
+        ]
+    },
+    {
+        "name": "R project for statistical computing",
+        "slug": "r-project-for-statistical-computing",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/r-project-for-statistical-computing",
+        "project_count": 25,
+        "projects": [
+            "/programs/2026/projects/BMTMbZ62",
+            "/programs/2026/projects/HoPu7Sqq",
+            "/programs/2026/projects/AGRJZ3K2",
+            "/programs/2026/projects/VfSnrWX1",
+            "/programs/2026/projects/mtcdLZ4F",
+            "/programs/2026/projects/dKiGibYn",
+            "/programs/2026/projects/pPJhAXtV",
+            "/programs/2026/projects/Slumji4I",
+            "/programs/2026/projects/yoSoAMaV",
+            "/programs/2026/projects/fKTU9FUL",
+            "/programs/2026/projects/KIFNdzRU",
+            "/programs/2026/projects/49BpsyvL",
+            "/programs/2026/projects/YSd4aZOh",
+            "/programs/2026/projects/ZM9MoUWJ",
+            "/programs/2026/projects/l00zJDZy",
+            "/programs/2026/projects/sTDJE27G",
+            "/programs/2026/projects/qAB10LqH",
+            "/programs/2026/projects/LtyPg5GL",
+            "/programs/2026/projects/0oGzAWvL",
+            "/programs/2026/projects/zinyuCQ8",
+            "/programs/2026/projects/M1PViVnA",
+            "/programs/2026/projects/QYMNbHhk",
+            "/programs/2026/projects/xvs9xFQ2",
+            "/programs/2026/projects/bwf3dRvT",
+            "/programs/2026/projects/PbhA7De0"
+        ]
+    },
+    {
+        "name": "SW360",
+        "slug": "sw360",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/sw360",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/TPr2uAQv",
+            "/programs/2026/projects/pcEhsFhD",
+            "/programs/2026/projects/ratsK5FK"
+        ]
+    },
+    {
+        "name": "Gambit: The package for computation in game theory",
+        "slug": "gambit-the-package-for-computation-in-game-theory",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gambit-the-package-for-computation-in-game-theory",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/5bi4nB7H",
+            "/programs/2026/projects/UDsirYH0",
+            "/programs/2026/projects/LYQiX01q"
+        ]
+    },
+    {
+        "name": "webpack",
+        "slug": "webpack",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/webpack",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/ikzNNgeA",
+            "/programs/2026/projects/qIwsEvsU",
+            "/programs/2026/projects/bUYNVdfx"
+        ]
+    },
+    {
+        "name": "The Honeynet Project",
+        "slug": "the-honeynet-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-honeynet-project",
+        "project_count": 8,
+        "projects": [
+            "/programs/2026/projects/9CLNdcdS",
+            "/programs/2026/projects/4SAdqqai",
+            "/programs/2026/projects/K3oBuGJE",
+            "/programs/2026/projects/8IC82cX6",
+            "/programs/2026/projects/gm6UndtK",
+            "/programs/2026/projects/s6YWGI16",
+            "/programs/2026/projects/T4XiKrRO",
+            "/programs/2026/projects/nodrqwrt"
+        ]
+    },
+    {
+        "name": "Invesalius",
+        "slug": "invesalius",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/invesalius",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/xgEC4Ulk",
+            "/programs/2026/projects/ipVIM23p",
+            "/programs/2026/projects/F7tPYnGw",
+            "/programs/2026/projects/WqyjtNKE",
+            "/programs/2026/projects/eVXJ7eUt"
+        ]
+    },
+    {
+        "name": "OpenAstronomy",
+        "slug": "openastronomy",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/openastronomy",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/SaSD1HOR",
+            "/programs/2026/projects/iZFr1E68",
+            "/programs/2026/projects/0VhXusPh",
+            "/programs/2026/projects/o2k6RAjT"
+        ]
+    },
+    {
+        "name": "Typelevel",
+        "slug": "typelevel",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/typelevel",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/Z6NA8stz",
+            "/programs/2026/projects/WLcIITzr",
+            "/programs/2026/projects/XM7MG9IK",
+            "/programs/2026/projects/vibpm0UF"
+        ]
+    },
+    {
+        "name": "MDAnalysis",
+        "slug": "mdanalysis",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/mdanalysis",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/Jz9S7jxP",
+            "/programs/2026/projects/VJMrp2UW",
+            "/programs/2026/projects/DzTMshtu"
+        ]
+    },
+    {
+        "name": "QC-Devs",
+        "slug": "qc-devs",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/qc-devs",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/Y2YHfpWh",
+            "/programs/2026/projects/1TivKsHA",
+            "/programs/2026/projects/oEZWlRnx"
+        ]
+    },
+    {
+        "name": "Accord Project",
+        "slug": "accord-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/accord-project",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/R4u8FyUV",
+            "/programs/2026/projects/GWPOccoM",
+            "/programs/2026/projects/IPvb0S5e",
+            "/programs/2026/projects/gEQTuaO3",
+            "/programs/2026/projects/f44dBnag"
+        ]
+    },
+    {
+        "name": "Neovim",
+        "slug": "neovim",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/neovim",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/ulvAb2rQ",
+            "/programs/2026/projects/N3OFmss1"
+        ]
+    },
+    {
+        "name": "SageMath",
+        "slug": "sagemath",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/sagemath",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/pDzlmkKR",
+            "/programs/2026/projects/y7PP4TYV",
+            "/programs/2026/projects/YM5bJd9x"
+        ]
+    },
+    {
+        "name": "LibreHealth",
+        "slug": "librehealth",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/librehealth",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/uKqNeRLK",
+            "/programs/2026/projects/B0KA82Dk",
+            "/programs/2026/projects/Q5yZv6TT",
+            "/programs/2026/projects/hnKarRtf"
+        ]
+    },
+    {
+        "name": "Submitty",
+        "slug": "submitty",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/submitty",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/FJfEncaE",
+            "/programs/2026/projects/e3YU9deG",
+            "/programs/2026/projects/stDoMv66"
+        ]
+    },
+    {
+        "name": "Project Mesa",
+        "slug": "project-mesa",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/project-mesa",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/ZDJYIXEz",
+            "/programs/2026/projects/8Rhd5XVJ",
+            "/programs/2026/projects/yzrhCVTm"
+        ]
+    },
+    {
+        "name": "CCExtractor Development",
+        "slug": "ccextractor-development",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/ccextractor-development",
+        "project_count": 6,
+        "projects": [
+            "/programs/2026/projects/F8h6xhNe",
+            "/programs/2026/projects/QS4A6pNj",
+            "/programs/2026/projects/REFnt93o",
+            "/programs/2026/projects/93v6Q9d7",
+            "/programs/2026/projects/6swzCzCq",
+            "/programs/2026/projects/hLtBZkBr"
+        ]
+    },
+    {
+        "name": "ScummVM",
+        "slug": "scummvm",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/scummvm",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/RRNaaGFC",
+            "/programs/2026/projects/Cf3O9rfG",
+            "/programs/2026/projects/Fr2xKJGB",
+            "/programs/2026/projects/6Bi7EVO6"
+        ]
+    },
+    {
+        "name": "JSON Schema",
+        "slug": "json-schema",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/json-schema",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/lHGWOMW8",
+            "/programs/2026/projects/nFcPOwLX",
+            "/programs/2026/projects/BW2u9qaF",
+            "/programs/2026/projects/PSUr4vgB",
+            "/programs/2026/projects/pDbaiNrF"
+        ]
+    },
+    {
+        "name": "Tiled",
+        "slug": "tiled",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/tiled",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/BahR0KDx",
+            "/programs/2026/projects/PAg4ulYo"
+        ]
+    },
+    {
+        "name": "Gemini CLI",
+        "slug": "gemini-cli",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gemini-cli",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/QJ9zsb8n",
+            "/programs/2026/projects/gbBxNmxJ"
+        ]
+    },
+    {
+        "name": "German Center for Open Source AI",
+        "slug": "german-center-for-open-source-ai",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/german-center-for-open-source-ai",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/9f1Gy1QX",
+            "/programs/2026/projects/gnjq9ALp",
+            "/programs/2026/projects/yt22vmU6",
+            "/programs/2026/projects/V3dUkvN0",
+            "/programs/2026/projects/LZMBhg6A"
+        ]
+    },
+    {
+        "name": "MetaCall",
+        "slug": "metacall",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/metacall",
+        "project_count": 6,
+        "projects": [
+            "/programs/2026/projects/X0vuyYHC",
+            "/programs/2026/projects/nlw0P03Q",
+            "/programs/2026/projects/jAHVcgUB",
+            "/programs/2026/projects/75QwoVXe",
+            "/programs/2026/projects/uvTPXGVc",
+            "/programs/2026/projects/jhRVSHve"
+        ]
+    },
+    {
+        "name": "Neuroinformatics Unit",
+        "slug": "neuroinformatics-unit",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/neuroinformatics-unit",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/Z184DMXP",
+            "/programs/2026/projects/sE6lahiQ",
+            "/programs/2026/projects/w0cBSgA2"
+        ]
+    },
+    {
+        "name": "Liquid Galaxy project",
+        "slug": "liquid-galaxy-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/liquid-galaxy-project",
+        "project_count": 10,
+        "projects": [
+            "/programs/2026/projects/X2xqDQFw",
+            "/programs/2026/projects/7RfI7CtQ",
+            "/programs/2026/projects/3I0xAxYa",
+            "/programs/2026/projects/dzOif5DN",
+            "/programs/2026/projects/R6FiDMOB",
+            "/programs/2026/projects/3Foj7wuK",
+            "/programs/2026/projects/uA9c3Nnn",
+            "/programs/2026/projects/1cGLRXvk",
+            "/programs/2026/projects/43QA3eRK",
+            "/programs/2026/projects/i8rcafwF"
+        ]
+    },
+    {
+        "name": "Python Software Foundation",
+        "slug": "python-software-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/python-software-foundation",
+        "project_count": 13,
+        "projects": [
+            "/programs/2026/projects/H6IOW84K",
+            "/programs/2026/projects/3FLbU2v4",
+            "/programs/2026/projects/Yd2rKpCR",
+            "/programs/2026/projects/CPrJuTBc",
+            "/programs/2026/projects/ycJZvlKX",
+            "/programs/2026/projects/VUqM97XC",
+            "/programs/2026/projects/UUezWSjc",
+            "/programs/2026/projects/fR0aXr03",
+            "/programs/2026/projects/IZYp4xRk",
+            "/programs/2026/projects/TYyV4bpP",
+            "/programs/2026/projects/9FkyayII",
+            "/programs/2026/projects/Vx6Qs9IE",
+            "/programs/2026/projects/wtuoFjpU"
+        ]
+    },
+    {
+        "name": "Data for the Common Good",
+        "slug": "data-for-the-common-good",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/data-for-the-common-good",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/SaPA4689",
+            "/programs/2026/projects/YdySpDSh",
+            "/programs/2026/projects/JysaL9zK",
+            "/programs/2026/projects/A7jQyiS2",
+            "/programs/2026/projects/MeX8xZIV"
+        ]
+    },
+    {
+        "name": "Open Science Initiative for Perfusion Imaging",
+        "slug": "open-science-initiative-for-perfusion-imaging",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/open-science-initiative-for-perfusion-imaging",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/UAEqFIyg",
+            "/programs/2026/projects/A5krVFf6",
+            "/programs/2026/projects/KNFknxgD",
+            "/programs/2026/projects/lXqhBGG0",
+            "/programs/2026/projects/ogeyaWWx"
+        ]
+    },
+    {
+        "name": "CircuitVerse.org",
+        "slug": "circuitverseorg",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/circuitverseorg",
+        "project_count": 6,
+        "projects": [
+            "/programs/2026/projects/JI2PN30m",
+            "/programs/2026/projects/gfjbsksC",
+            "/programs/2026/projects/BEUG5iMM",
+            "/programs/2026/projects/JN1PXIIA",
+            "/programs/2026/projects/GOfWxJHE",
+            "/programs/2026/projects/tDbbSIan"
+        ]
+    },
+    {
+        "name": "AnkiDroid",
+        "slug": "ankidroid",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/ankidroid",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/XGTDRLdf",
+            "/programs/2026/projects/pJlzPbuC"
+        ]
+    },
+    {
+        "name": "MoganLab",
+        "slug": "moganlab",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/moganlab",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/XXFVIs2W",
+            "/programs/2026/projects/1beFXSx8"
+        ]
+    },
+    {
+        "name": "API Dash",
+        "slug": "api-dash",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/api-dash",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/RQmFSAnm",
+            "/programs/2026/projects/8mOJR8XY",
+            "/programs/2026/projects/Qnk4Mkow"
+        ]
+    },
+    {
+        "name": "Qubes OS",
+        "slug": "qubes-os-f3",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/qubes-os-f3",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/3das9C5i",
+            "/programs/2026/projects/g8Tj9VCB",
+            "/programs/2026/projects/vjESxjOp"
+        ]
+    },
+    {
+        "name": "JabRef e.V.",
+        "slug": "jabref-ev",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/jabref-ev",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/Aj2w4sr7",
+            "/programs/2026/projects/WpfCv7KA",
+            "/programs/2026/projects/G9vyuNcs"
+        ]
+    },
+    {
+        "name": "Free and Open Source Silicon Foundation",
+        "slug": "free-and-open-source-silicon-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/free-and-open-source-silicon-foundation",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/8olpOqGa",
+            "/programs/2026/projects/4zUh8qAy",
+            "/programs/2026/projects/i2U7idgl",
+            "/programs/2026/projects/DTOnVOpw",
+            "/programs/2026/projects/TBGVWAn6"
+        ]
+    },
+    {
+        "name": "Wagtail",
+        "slug": "wagtail",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/wagtail",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/hkP5QbW8",
+            "/programs/2026/projects/S3X7EYPm",
+            "/programs/2026/projects/wmfuUxir",
+            "/programs/2026/projects/Ip6UNV9R"
+        ]
+    },
+    {
+        "name": "openSUSE Project",
+        "slug": "opensuse-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/opensuse-project",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/P55BEl5h",
+            "/programs/2026/projects/IkZoUdVT",
+            "/programs/2026/projects/yJH1saNZ",
+            "/programs/2026/projects/SjlTx0se",
+            "/programs/2026/projects/M03dLqSN",
+            "/programs/2026/projects/Mg9x3OsV",
+            "/programs/2026/projects/C8BuxfDi"
+        ]
+    },
+    {
+        "name": "JBoss Community",
+        "slug": "jboss-community",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/jboss-community",
+        "project_count": 8,
+        "projects": [
+            "/programs/2026/projects/MADrpiZa",
+            "/programs/2026/projects/IxEENt98",
+            "/programs/2026/projects/1xyxocte",
+            "/programs/2026/projects/T0IlKj8N",
+            "/programs/2026/projects/QJnrXP4a",
+            "/programs/2026/projects/7mN5BuP3",
+            "/programs/2026/projects/NrlNs8B1",
+            "/programs/2026/projects/ZVqmVcvB"
+        ]
+    },
+    {
+        "name": "C2SI",
+        "slug": "c2si",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/c2si",
+        "project_count": 14,
+        "projects": [
+            "/programs/2026/projects/7sf7V0bk",
+            "/programs/2026/projects/fkYCFYBS",
+            "/programs/2026/projects/yPbEIkbf",
+            "/programs/2026/projects/vfO7BcDX",
+            "/programs/2026/projects/4S0sfkKW",
+            "/programs/2026/projects/PnJGdWrY",
+            "/programs/2026/projects/7hkN7P2p",
+            "/programs/2026/projects/YdkWURkI",
+            "/programs/2026/projects/zuLPFjoe",
+            "/programs/2026/projects/OOjxLTXb",
+            "/programs/2026/projects/6Avhxr1h",
+            "/programs/2026/projects/2p2ipWVL",
+            "/programs/2026/projects/GEyrYg7x",
+            "/programs/2026/projects/9YbM89YA"
+        ]
+    },
+    {
+        "name": "OpenVINO Toolkit",
+        "slug": "openvino-toolkit",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/openvino-toolkit",
+        "project_count": 17,
+        "projects": [
+            "/programs/2026/projects/xwh8TgSD",
+            "/programs/2026/projects/unPORmcz",
+            "/programs/2026/projects/29TmEgaA",
+            "/programs/2026/projects/ThQKKcq2",
+            "/programs/2026/projects/EuOk9b2Y",
+            "/programs/2026/projects/p6as52dn",
+            "/programs/2026/projects/yvVZsgrT",
+            "/programs/2026/projects/kSCEItpK",
+            "/programs/2026/projects/UOQx8K8e",
+            "/programs/2026/projects/BsNfjmKS",
+            "/programs/2026/projects/E24beVxy",
+            "/programs/2026/projects/039H8Xcb",
+            "/programs/2026/projects/FfbilazS",
+            "/programs/2026/projects/SYyY5gkJ",
+            "/programs/2026/projects/0VlZJbEV",
+            "/programs/2026/projects/VuZyNd2S",
+            "/programs/2026/projects/eXLGWHgv"
+        ]
+    },
+    {
+        "name": "Fortran-lang",
+        "slug": "fortran-lang",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/fortran-lang",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/ze6dneXy",
+            "/programs/2026/projects/jHGETs6j",
+            "/programs/2026/projects/pJIfGlBB",
+            "/programs/2026/projects/Z2Eq4Htp"
+        ]
+    },
+    {
+        "name": "Eclipse Foundation",
+        "slug": "eclipse-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/eclipse-foundation",
+        "project_count": 6,
+        "projects": [
+            "/programs/2026/projects/oQuTkW08",
+            "/programs/2026/projects/KjeXEtXT",
+            "/programs/2026/projects/7euE3Cye",
+            "/programs/2026/projects/yuMveNWN",
+            "/programs/2026/projects/zI0yYD3X",
+            "/programs/2026/projects/2FIzvyaE"
+        ]
+    },
+    {
+        "name": "LLVM Compiler Infrastructure",
+        "slug": "llvm-compiler-infrastructure",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/llvm-compiler-infrastructure",
+        "project_count": 11,
+        "projects": [
+            "/programs/2026/projects/FVArxbU6",
+            "/programs/2026/projects/DtnfQpPD",
+            "/programs/2026/projects/5IvceljS",
+            "/programs/2026/projects/3h1KqLTL",
+            "/programs/2026/projects/2iBa41oM",
+            "/programs/2026/projects/XsjxBQ9o",
+            "/programs/2026/projects/3NvWcmRs",
+            "/programs/2026/projects/9R88Bogm",
+            "/programs/2026/projects/EXmgJri4",
+            "/programs/2026/projects/Fu7zL3zC",
+            "/programs/2026/projects/r3Y64A3Y"
+        ]
+    },
+    {
+        "name": "Alaska",
+        "slug": "alaska",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/alaska",
+        "project_count": 8,
+        "projects": [
+            "/programs/2026/projects/3JyEMHnd",
+            "/programs/2026/projects/dBYE2ubZ",
+            "/programs/2026/projects/0aMa7QKU",
+            "/programs/2026/projects/ghKIKf41",
+            "/programs/2026/projects/ZTn2MoDk",
+            "/programs/2026/projects/XFenGo3E",
+            "/programs/2026/projects/sUt1XTUX",
+            "/programs/2026/projects/pRIMRk1i"
+        ]
+    },
+    {
+        "name": "GNU Image Manipulation Program",
+        "slug": "gnu-image-manipulation-program",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gnu-image-manipulation-program",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/FOTN5k6d",
+            "/programs/2026/projects/vOQmm3B4",
+            "/programs/2026/projects/iZpusJ8W",
+            "/programs/2026/projects/93YKgzUh"
+        ]
+    },
+    {
+        "name": "LabLua",
+        "slug": "lablua",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/lablua",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/IHF0HPaF",
+            "/programs/2026/projects/CybN2mc4",
+            "/programs/2026/projects/tUI6CoLO",
+            "/programs/2026/projects/LJlrW9TY"
+        ]
+    },
+    {
+        "name": "FFmpeg",
+        "slug": "ffmpeg",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/ffmpeg",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/M9U6VFDD",
+            "/programs/2026/projects/JhXI42g2",
+            "/programs/2026/projects/PalUZxqz"
+        ]
+    },
+    {
+        "name": "cBioPortal for Cancer Genomics",
+        "slug": "cbioportal-for-cancer-genomics",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/cbioportal-for-cancer-genomics",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/G7jxmBDW",
+            "/programs/2026/projects/o1VfDkHQ",
+            "/programs/2026/projects/Ipasy7jD",
+            "/programs/2026/projects/jp7dSqHK",
+            "/programs/2026/projects/nxvXuctt"
+        ]
+    },
+    {
+        "name": "Open HealthCare Network",
+        "slug": "open-healthcare-network",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/open-healthcare-network",
+        "project_count": 1,
+        "projects": [
+            "/programs/2026/projects/wl9TLWgo"
+        ]
+    },
+    {
+        "name": "FOSSology",
+        "slug": "fossology",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/fossology",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/UnwKIbaJ",
+            "/programs/2026/projects/y4mcM5DY",
+            "/programs/2026/projects/4lbA9kyo",
+            "/programs/2026/projects/hrzg5wea",
+            "/programs/2026/projects/GY4LO3iv",
+            "/programs/2026/projects/XkcJNZJt",
+            "/programs/2026/projects/Gj3P4fCU"
+        ]
+    },
+    {
+        "name": "Blender Foundation",
+        "slug": "blender-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/blender-foundation",
+        "project_count": 8,
+        "projects": [
+            "/programs/2026/projects/IVkxBrR2",
+            "/programs/2026/projects/CN7EtQiK",
+            "/programs/2026/projects/PAbcUvME",
+            "/programs/2026/projects/c7OJAvyL",
+            "/programs/2026/projects/12otrFZQ",
+            "/programs/2026/projects/48scIGRq",
+            "/programs/2026/projects/WK7NwHmb",
+            "/programs/2026/projects/z1TyuOzu"
+        ]
+    },
+    {
+        "name": "Wikimedia Foundation",
+        "slug": "wikimedia-foundation-nd",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/wikimedia-foundation-nd",
+        "project_count": 8,
+        "projects": [
+            "/programs/2026/projects/GwRgoDRV",
+            "/programs/2026/projects/04nad0vw",
+            "/programs/2026/projects/0DxJvBDv",
+            "/programs/2026/projects/qWgyLtC1",
+            "/programs/2026/projects/wtykY2Nk",
+            "/programs/2026/projects/gWIKXQoY",
+            "/programs/2026/projects/Tddy0k8i",
+            "/programs/2026/projects/YcplnI0q"
+        ]
+    },
+    {
+        "name": "Unikraft",
+        "slug": "unikraft",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/unikraft",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/9nXXVox5",
+            "/programs/2026/projects/DIK6a0IM",
+            "/programs/2026/projects/xLEuKmmc",
+            "/programs/2026/projects/IM5uB3Gy"
+        ]
+    },
+    {
+        "name": "HumanAI",
+        "slug": "humanai",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/humanai",
+        "project_count": 13,
+        "projects": [
+            "/programs/2026/projects/0mv4CmTV",
+            "/programs/2026/projects/JA5j6IWg",
+            "/programs/2026/projects/BNRwFanI",
+            "/programs/2026/projects/WP6b8R91",
+            "/programs/2026/projects/Nl7qax6x",
+            "/programs/2026/projects/0sDG56sw",
+            "/programs/2026/projects/JtL7hkvd",
+            "/programs/2026/projects/GRK1q379",
+            "/programs/2026/projects/ES9gcxTR",
+            "/programs/2026/projects/SLd9z3jc",
+            "/programs/2026/projects/4U0ZOuDP",
+            "/programs/2026/projects/aGUJtLF7",
+            "/programs/2026/projects/FCpSlqkx"
+        ]
+    },
+    {
+        "name": "Zulip",
+        "slug": "zulip",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/zulip",
+        "project_count": 11,
+        "projects": [
+            "/programs/2026/projects/NQQuVSCK",
+            "/programs/2026/projects/43OugB9J",
+            "/programs/2026/projects/9wY1QssZ",
+            "/programs/2026/projects/CiUYn786",
+            "/programs/2026/projects/54NLCdXD",
+            "/programs/2026/projects/QccrNMjY",
+            "/programs/2026/projects/Gw2ZG2Aj",
+            "/programs/2026/projects/mm2mJFCd",
+            "/programs/2026/projects/dRCKcetM",
+            "/programs/2026/projects/SsVasZCj",
+            "/programs/2026/projects/HpVFK8LZ"
+        ]
+    },
+    {
+        "name": "Graphite",
+        "slug": "graphite",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/graphite",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/xmzkZBJD",
+            "/programs/2026/projects/pZMifaTq",
+            "/programs/2026/projects/TQhpRSAt",
+            "/programs/2026/projects/DvRD1zoE"
+        ]
+    },
+    {
+        "name": "IOOS",
+        "slug": "ioos",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/ioos",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/bJGGUbsA",
+            "/programs/2026/projects/lzj4M67Y",
+            "/programs/2026/projects/gIaaxcS9",
+            "/programs/2026/projects/CeS8f9lv",
+            "/programs/2026/projects/OuJRe5Av",
+            "/programs/2026/projects/I8uSWyXY",
+            "/programs/2026/projects/oMVlDkiW"
+        ]
+    },
+    {
+        "name": "Neutralinojs",
+        "slug": "neutralinojs",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/neutralinojs",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/htS4Jayv",
+            "/programs/2026/projects/z3S52wHv",
+            "/programs/2026/projects/uGXZeO73"
+        ]
+    },
+    {
+        "name": "Machine Learning for Science (ML4SCI)",
+        "slug": "machine-learning-for-science-ml4sci",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/machine-learning-for-science-ml4sci",
+        "project_count": 31,
+        "projects": [
+            "/programs/2026/projects/UASYsb7a",
+            "/programs/2026/projects/YE3EZhfg",
+            "/programs/2026/projects/N4VolVhn",
+            "/programs/2026/projects/2G8lBNrY",
+            "/programs/2026/projects/x8UN6QjV",
+            "/programs/2026/projects/mYxjz2HV",
+            "/programs/2026/projects/8qZpxNPy",
+            "/programs/2026/projects/iZPOx8Sz",
+            "/programs/2026/projects/xtWKvQN6",
+            "/programs/2026/projects/7942x4PJ",
+            "/programs/2026/projects/k28fWeH1",
+            "/programs/2026/projects/aUdXdrRk",
+            "/programs/2026/projects/9kXhI3Ib",
+            "/programs/2026/projects/Ci1QDf2L",
+            "/programs/2026/projects/Sb90Tqyy",
+            "/programs/2026/projects/T4dPeWat",
+            "/programs/2026/projects/kUJQK7fT",
+            "/programs/2026/projects/u061dKly",
+            "/programs/2026/projects/6uwypmii",
+            "/programs/2026/projects/fCroA1AB",
+            "/programs/2026/projects/HMt25PcC",
+            "/programs/2026/projects/SKooJtz9",
+            "/programs/2026/projects/K2sWHTIO",
+            "/programs/2026/projects/MI0dm7XU",
+            "/programs/2026/projects/aVnqOT18",
+            "/programs/2026/projects/kcy3CLBS",
+            "/programs/2026/projects/7A9KU5ng",
+            "/programs/2026/projects/cABVFPt0",
+            "/programs/2026/projects/jqXeIWYq",
+            "/programs/2026/projects/rh8Ve9al",
+            "/programs/2026/projects/e0Z2Ixow"
+        ]
+    },
+    {
+        "name": "Genome Assembly and Annotation",
+        "slug": "genome-assembly-and-annotation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/genome-assembly-and-annotation",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/sj2t88xE",
+            "/programs/2026/projects/pdFOyIjl",
+            "/programs/2026/projects/brBab9aI",
+            "/programs/2026/projects/UCKv7A2e",
+            "/programs/2026/projects/TG4YNQYK",
+            "/programs/2026/projects/SzccYhba",
+            "/programs/2026/projects/lMJjEjbW"
+        ]
+    },
+    {
+        "name": "EROFS filesystem",
+        "slug": "erofs-filesystem",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/erofs-filesystem",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/XxkEzKgA",
+            "/programs/2026/projects/mSWHC0AO",
+            "/programs/2026/projects/DgKC7AQZ"
+        ]
+    },
+    {
+        "name": "PEcAn Project",
+        "slug": "pecan-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/pecan-project",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/9N3lJpwq",
+            "/programs/2026/projects/4qOMZTZw",
+            "/programs/2026/projects/ji7y6Llg",
+            "/programs/2026/projects/uwUA1R02"
+        ]
+    },
+    {
+        "name": "Open Science Labs",
+        "slug": "open-science-labs",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/open-science-labs",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/ht2WBljH",
+            "/programs/2026/projects/fGJRVdjq",
+            "/programs/2026/projects/ShK4q2ak",
+            "/programs/2026/projects/c6IVMXpx",
+            "/programs/2026/projects/nL3y0QpV",
+            "/programs/2026/projects/0dSuP1ia",
+            "/programs/2026/projects/fzD06j1V"
+        ]
+    },
+    {
+        "name": "United Nations Office of Information Communication Technology",
+        "slug": "united-nations-office-of-information-communication-technology",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/united-nations-office-of-information-communication-technology",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/3T8m5ZQd",
+            "/programs/2026/projects/l8UO1g4u",
+            "/programs/2026/projects/lpXqwIXj",
+            "/programs/2026/projects/X2D41obR"
+        ]
+    },
+    {
+        "name": "CERN-HSF",
+        "slug": "cern-hsf",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/cern-hsf",
+        "project_count": 25,
+        "projects": [
+            "/programs/2026/projects/NE74dwRu",
+            "/programs/2026/projects/rPEIwMsQ",
+            "/programs/2026/projects/iHV5vMCd",
+            "/programs/2026/projects/cYpFOzLK",
+            "/programs/2026/projects/cDKBWymH",
+            "/programs/2026/projects/FahmhzH5",
+            "/programs/2026/projects/sVOgjt53",
+            "/programs/2026/projects/Xm0BbJOp",
+            "/programs/2026/projects/Ae9A9DSE",
+            "/programs/2026/projects/Ub15laAH",
+            "/programs/2026/projects/cWU70vlI",
+            "/programs/2026/projects/FyOlfX97",
+            "/programs/2026/projects/nYyYKxEa",
+            "/programs/2026/projects/YkxQ7UPz",
+            "/programs/2026/projects/Oe95hqXm",
+            "/programs/2026/projects/BydeEVm8",
+            "/programs/2026/projects/gnBEsbW8",
+            "/programs/2026/projects/QN28h4Fl",
+            "/programs/2026/projects/FyDjzZ3Y",
+            "/programs/2026/projects/t5wtm4YD",
+            "/programs/2026/projects/SVAvdUE4",
+            "/programs/2026/projects/Cr3qXGNx",
+            "/programs/2026/projects/xo3AoOw0",
+            "/programs/2026/projects/Py4lurGy",
+            "/programs/2026/projects/yvrxn4JI"
+        ]
+    },
+    {
+        "name": "OpenStreetMap",
+        "slug": "openstreetmap",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/openstreetmap",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/2zrzo548",
+            "/programs/2026/projects/n1dwnwQY",
+            "/programs/2026/projects/X70HS5zI",
+            "/programs/2026/projects/6WS8O5PX"
+        ]
+    },
+    {
+        "name": "GNU Octave",
+        "slug": "gnu-octave",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gnu-octave",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/YKFoacXh",
+            "/programs/2026/projects/Zwt7NAfh"
+        ]
+    },
+    {
+        "name": "Ceph",
+        "slug": "ceph",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/ceph",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/pkdmML8d",
+            "/programs/2026/projects/vYB7JYWk",
+            "/programs/2026/projects/KvszXOEh"
+        ]
+    },
+    {
+        "name": "Git",
+        "slug": "git",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/git",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/O1nF3zMT",
+            "/programs/2026/projects/752yzmwm",
+            "/programs/2026/projects/hs14IFAn",
+            "/programs/2026/projects/Lx1PmL4k"
+        ]
+    },
+    {
+        "name": "Uramaki LAB",
+        "slug": "uramaki-lab",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/uramaki-lab",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/mTtZZ2Lq",
+            "/programs/2026/projects/4HOKx20I",
+            "/programs/2026/projects/AWtPHjCE"
+        ]
+    },
+    {
+        "name": "Internet Archive",
+        "slug": "internet-archive",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/internet-archive",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/kyV10UAf",
+            "/programs/2026/projects/jUneSe5v",
+            "/programs/2026/projects/Zkjq13SC"
+        ]
+    },
+    {
+        "name": "The P4 Language Consortium",
+        "slug": "the-p4-language-consortium",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-p4-language-consortium",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/qMVa9F81",
+            "/programs/2026/projects/DAxIafkq",
+            "/programs/2026/projects/xySpY7SU",
+            "/programs/2026/projects/mIjAcBVg",
+            "/programs/2026/projects/cuGQCuZO"
+        ]
+    },
+    {
+        "name": "UC OSPO",
+        "slug": "uc-ospo",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/uc-ospo",
+        "project_count": 15,
+        "projects": [
+            "/programs/2026/projects/1zcDKy9B",
+            "/programs/2026/projects/7FRltlHv",
+            "/programs/2026/projects/9WcegS1e",
+            "/programs/2026/projects/RIyge93T",
+            "/programs/2026/projects/A9rraw4C",
+            "/programs/2026/projects/iEFnjzGC",
+            "/programs/2026/projects/pBfRTWAc",
+            "/programs/2026/projects/vnxZAglF",
+            "/programs/2026/projects/6JWmYcK3",
+            "/programs/2026/projects/x9kTlgBX",
+            "/programs/2026/projects/21PXUiQw",
+            "/programs/2026/projects/uA9SoSUM",
+            "/programs/2026/projects/J4m3cXzF",
+            "/programs/2026/projects/X254OA2v",
+            "/programs/2026/projects/FaH5qBAd"
+        ]
+    },
+    {
+        "name": "INCF",
+        "slug": "incf",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/incf",
+        "project_count": 22,
+        "projects": [
+            "/programs/2026/projects/kYzmLKTa",
+            "/programs/2026/projects/A289WZd0",
+            "/programs/2026/projects/XV3TCMEB",
+            "/programs/2026/projects/rFWFeAQl",
+            "/programs/2026/projects/axPxPpBS",
+            "/programs/2026/projects/2IVNn5Ot",
+            "/programs/2026/projects/aJ6UQKCM",
+            "/programs/2026/projects/N1F75Gqd",
+            "/programs/2026/projects/la6M6A71",
+            "/programs/2026/projects/exG2wYXK",
+            "/programs/2026/projects/mgRMtTYS",
+            "/programs/2026/projects/m6uAnHtG",
+            "/programs/2026/projects/IhDOBc9W",
+            "/programs/2026/projects/1JqhEQis",
+            "/programs/2026/projects/OkpWFPSn",
+            "/programs/2026/projects/rzEIQjsH",
+            "/programs/2026/projects/iJ7MpwX1",
+            "/programs/2026/projects/wpHfGAhp",
+            "/programs/2026/projects/Tn33dTRs",
+            "/programs/2026/projects/N3X7QDzg",
+            "/programs/2026/projects/hBKIrtGL",
+            "/programs/2026/projects/ZBtzxqx4"
+        ]
+    },
+    {
+        "name": "Kornia",
+        "slug": "kornia",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/kornia",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/o8GfpyuW",
+            "/programs/2026/projects/TmCX5lzg"
+        ]
+    },
+    {
+        "name": "AboutCode",
+        "slug": "aboutcode",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/aboutcode",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/K6CQtnjP",
+            "/programs/2026/projects/nlwOImQP"
+        ]
+    },
+    {
+        "name": "OpenWISP",
+        "slug": "openwisp",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/openwisp",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/k5om1bzR",
+            "/programs/2026/projects/V7O0DNPy",
+            "/programs/2026/projects/N7h4TqNT",
+            "/programs/2026/projects/ebtNcwKc",
+            "/programs/2026/projects/QVqzP2G1"
+        ]
+    },
+    {
+        "name": "GNU Compiler Collection (GCC)",
+        "slug": "gnu-compiler-collection-gcc",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gnu-compiler-collection-gcc",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/iiWwmSYh",
+            "/programs/2026/projects/iDcbvPxG",
+            "/programs/2026/projects/rpCOU67B",
+            "/programs/2026/projects/iXbp42du",
+            "/programs/2026/projects/A0rrJ5os"
+        ]
+    },
+    {
+        "name": "Django Software Foundation",
+        "slug": "django-software-foundation-8o",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/django-software-foundation-8o",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/zCsh2gn8",
+            "/programs/2026/projects/DS19UPgh",
+            "/programs/2026/projects/HEm4uE06",
+            "/programs/2026/projects/hVM2skuP"
+        ]
+    },
+    {
+        "name": "Dart",
+        "slug": "dart",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/dart",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/OASvDLAH",
+            "/programs/2026/projects/985GmbLR",
+            "/programs/2026/projects/hXF55vKW",
+            "/programs/2026/projects/lH8t9v3H",
+            "/programs/2026/projects/C0x2USWU"
+        ]
+    },
+    {
+        "name": "The Linux Foundation",
+        "slug": "the-linux-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-linux-foundation",
+        "project_count": 18,
+        "projects": [
+            "/programs/2026/projects/iYwK7khC",
+            "/programs/2026/projects/72Klnool",
+            "/programs/2026/projects/NluNDjK4",
+            "/programs/2026/projects/IJ6whGrE",
+            "/programs/2026/projects/vTB6j0HO",
+            "/programs/2026/projects/2xD5gI7J",
+            "/programs/2026/projects/d6hEjMu5",
+            "/programs/2026/projects/k0bZOR1y",
+            "/programs/2026/projects/Oo4W6HPR",
+            "/programs/2026/projects/jkzcDIbh",
+            "/programs/2026/projects/4ut4Zemb",
+            "/programs/2026/projects/KtVvMNGc",
+            "/programs/2026/projects/Ftmp7zDD",
+            "/programs/2026/projects/SqXJr6K6",
+            "/programs/2026/projects/BrSCmtu8",
+            "/programs/2026/projects/oUiO5jrE",
+            "/programs/2026/projects/6TTdAldF",
+            "/programs/2026/projects/tvPbQm4Q"
+        ]
+    },
+    {
+        "name": "The Mifos Initiative",
+        "slug": "the-mifos-initiative",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-mifos-initiative",
+        "project_count": 13,
+        "projects": [
+            "/programs/2026/projects/QnhX9kiV",
+            "/programs/2026/projects/j9bD2uQR",
+            "/programs/2026/projects/5HR6g4ub",
+            "/programs/2026/projects/uglcLctP",
+            "/programs/2026/projects/RppPk6jU",
+            "/programs/2026/projects/p2LJ6Ny8",
+            "/programs/2026/projects/GQUW8ebj",
+            "/programs/2026/projects/O68LfL7I",
+            "/programs/2026/projects/6kxA6QVq",
+            "/programs/2026/projects/hpIVWw7v",
+            "/programs/2026/projects/wtjcAbhF",
+            "/programs/2026/projects/uxJER6h5",
+            "/programs/2026/projects/fcy5RLM7"
+        ]
+    },
+    {
+        "name": "The ns-3 Network Simulator Project",
+        "slug": "the-ns-3-network-simulator-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-ns-3-network-simulator-project",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/G2dYeVu6",
+            "/programs/2026/projects/PCXPdFoD",
+            "/programs/2026/projects/Wl61Gzov",
+            "/programs/2026/projects/nQxxo1N3",
+            "/programs/2026/projects/wHBM2psz"
+        ]
+    },
+    {
+        "name": "Sugar Labs",
+        "slug": "sugar-labs",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/sugar-labs",
+        "project_count": 10,
+        "projects": [
+            "/programs/2026/projects/dYPNPW3h",
+            "/programs/2026/projects/Yf2eiaqE",
+            "/programs/2026/projects/AwHyY0sr",
+            "/programs/2026/projects/JitsF3AX",
+            "/programs/2026/projects/m1OTEA7p",
+            "/programs/2026/projects/ZTOwQ4sL",
+            "/programs/2026/projects/BzjL6hic",
+            "/programs/2026/projects/sfoCupmN",
+            "/programs/2026/projects/HFDtyMr8",
+            "/programs/2026/projects/Zhuej8Pa"
+        ]
+    },
+    {
+        "name": "checkstyle",
+        "slug": "checkstyle",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/checkstyle",
+        "project_count": 6,
+        "projects": [
+            "/programs/2026/projects/T2S28Gn6",
+            "/programs/2026/projects/NDqLGMlI",
+            "/programs/2026/projects/vtTkHKrF",
+            "/programs/2026/projects/AeM92GdH",
+            "/programs/2026/projects/IzQRwMhd",
+            "/programs/2026/projects/urwc1ZIm"
+        ]
+    },
+    {
+        "name": "AOSSIE",
+        "slug": "aossie",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/aossie",
+        "project_count": 21,
+        "projects": [
+            "/programs/2026/projects/19Upjrdb",
+            "/programs/2026/projects/A8xccpmy",
+            "/programs/2026/projects/oXTxtRuo",
+            "/programs/2026/projects/X419Ucpk",
+            "/programs/2026/projects/anb01dN5",
+            "/programs/2026/projects/2l5PcOuy",
+            "/programs/2026/projects/BgwlVXbS",
+            "/programs/2026/projects/WAEzEaG6",
+            "/programs/2026/projects/RQpiYggb",
+            "/programs/2026/projects/67fFHZo9",
+            "/programs/2026/projects/1NIyo4YK",
+            "/programs/2026/projects/yPY7sFrk",
+            "/programs/2026/projects/hXfpzW4A",
+            "/programs/2026/projects/kjHV1ROH",
+            "/programs/2026/projects/qXYHgKTb",
+            "/programs/2026/projects/pNXAn67H",
+            "/programs/2026/projects/QYJ8pt5M",
+            "/programs/2026/projects/l3AkqB4t",
+            "/programs/2026/projects/0Ijsb0nE",
+            "/programs/2026/projects/JxQn3gPc",
+            "/programs/2026/projects/GS2OzCEu"
+        ]
+    },
+    {
+        "name": "rocket.chat",
+        "slug": "rocketchat",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/rocketchat",
+        "project_count": 10,
+        "projects": [
+            "/programs/2026/projects/2LvZl7YI",
+            "/programs/2026/projects/xcOZ4ccj",
+            "/programs/2026/projects/PMjabHxf",
+            "/programs/2026/projects/YqgtdmcO",
+            "/programs/2026/projects/UsBN25oY",
+            "/programs/2026/projects/fPHB4nLt",
+            "/programs/2026/projects/H1D0QolA",
+            "/programs/2026/projects/DIRqu6lu",
+            "/programs/2026/projects/0Pk45Q1K",
+            "/programs/2026/projects/x0D0UVyS"
+        ]
+    },
+    {
+        "name": "Open Robotics",
+        "slug": "open-robotics",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/open-robotics",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/XzCZfpPX",
+            "/programs/2026/projects/sQflt89O",
+            "/programs/2026/projects/F9qx5flu",
+            "/programs/2026/projects/b5jzp0go",
+            "/programs/2026/projects/bnS8REDz",
+            "/programs/2026/projects/sQNXZTRy",
+            "/programs/2026/projects/jM4uz0v2"
+        ]
+    },
+    {
+        "name": "DBpedia",
+        "slug": "dbpedia",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/dbpedia",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/kebLcDis",
+            "/programs/2026/projects/bhnldATH",
+            "/programs/2026/projects/JUH1W3j3",
+            "/programs/2026/projects/rd7jEVeo",
+            "/programs/2026/projects/GI3KcMrR"
+        ]
+    },
+    {
+        "name": "Rizin",
+        "slug": "rizin",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/rizin",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/2nJXboq3",
+            "/programs/2026/projects/9X4fkclD",
+            "/programs/2026/projects/VYDNb6QE",
+            "/programs/2026/projects/ZicrMCYT"
+        ]
+    },
+    {
+        "name": "MalariaGEN",
+        "slug": "malariagen",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/malariagen",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/ar0jqOKO",
+            "/programs/2026/projects/jvqBoHfQ"
+        ]
+    },
+    {
+        "name": "Open Technologies Alliance - GFOSS",
+        "slug": "open-technologies-alliance-gfoss",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/open-technologies-alliance-gfoss",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/tsU0KTpk",
+            "/programs/2026/projects/7XBJb5i7",
+            "/programs/2026/projects/lVrYry5l",
+            "/programs/2026/projects/YODH0258",
+            "/programs/2026/projects/B9jiFJx5",
+            "/programs/2026/projects/8YExFyHi",
+            "/programs/2026/projects/cTncP3Km"
+        ]
+    },
+    {
+        "name": "QEMU",
+        "slug": "qemu",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/qemu",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/aEV2rnx4",
+            "/programs/2026/projects/1Q3qWHfa",
+            "/programs/2026/projects/V58JuDQ7",
+            "/programs/2026/projects/ssoc2JtG"
+        ]
+    },
+    {
+        "name": "Processing Foundation",
+        "slug": "processing-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/processing-foundation",
+        "project_count": 6,
+        "projects": [
+            "/programs/2026/projects/fwl680gJ",
+            "/programs/2026/projects/kxtZTTpB",
+            "/programs/2026/projects/384AQDTj",
+            "/programs/2026/projects/wmrV9qBT",
+            "/programs/2026/projects/H2LUlwc4",
+            "/programs/2026/projects/YvQfPALD"
+        ]
+    },
+    {
+        "name": "KolibriOS Project Team",
+        "slug": "kolibrios-project-team",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/kolibrios-project-team",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/pYuVzwap",
+            "/programs/2026/projects/L2QvSOxz",
+            "/programs/2026/projects/XFZ3f9xX"
+        ]
+    },
+    {
+        "name": "MoFA Org",
+        "slug": "mofa-org",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/mofa-org",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/TARkTQn9",
+            "/programs/2026/projects/lg6BoU1Y"
+        ]
+    },
+    {
+        "name": "NumFOCUS",
+        "slug": "numfocus",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/numfocus",
+        "project_count": 26,
+        "projects": [
+            "/programs/2026/projects/TP6Va9fw",
+            "/programs/2026/projects/gWArdWea",
+            "/programs/2026/projects/KCUx8CEu",
+            "/programs/2026/projects/vM390Eg2",
+            "/programs/2026/projects/Wor5oyPP",
+            "/programs/2026/projects/Tt5OTfGg",
+            "/programs/2026/projects/xjGxcHLE",
+            "/programs/2026/projects/MBivzW0z",
+            "/programs/2026/projects/uVGglAZn",
+            "/programs/2026/projects/XLzt7C63",
+            "/programs/2026/projects/WQtQjDaJ",
+            "/programs/2026/projects/UPu8y5Lt",
+            "/programs/2026/projects/vEYFVYsd",
+            "/programs/2026/projects/lYRpJzPH",
+            "/programs/2026/projects/U2ZGkixU",
+            "/programs/2026/projects/wdySFj7L",
+            "/programs/2026/projects/jLoU4DCV",
+            "/programs/2026/projects/P5QOhl9F",
+            "/programs/2026/projects/vU6mDjDf",
+            "/programs/2026/projects/B0U1Bv69",
+            "/programs/2026/projects/OzeuWEGy",
+            "/programs/2026/projects/KKfgVoVl",
+            "/programs/2026/projects/Hvyi10NT",
+            "/programs/2026/projects/iPCKhh6E",
+            "/programs/2026/projects/xjU1hvkm",
+            "/programs/2026/projects/DQ5CA7dx"
+        ]
+    },
+    {
+        "name": "OpenELIS Global",
+        "slug": "openelis-global",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/openelis-global",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/PhS18qoP",
+            "/programs/2026/projects/lqL1oBK8",
+            "/programs/2026/projects/xQuKQkBo",
+            "/programs/2026/projects/uP87dqd9"
+        ]
+    },
+    {
+        "name": "omegaUp",
+        "slug": "omegaup",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/omegaup",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/3UbBdLxp",
+            "/programs/2026/projects/j9yLSfFl",
+            "/programs/2026/projects/jEkK4rDg"
+        ]
+    },
+    {
+        "name": "International Catrobat Association",
+        "slug": "international-catrobat-association",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/international-catrobat-association",
+        "project_count": 12,
+        "projects": [
+            "/programs/2026/projects/lzlZ0twG",
+            "/programs/2026/projects/7jYMDRSX",
+            "/programs/2026/projects/U6nhMlnR",
+            "/programs/2026/projects/cg3YhJav",
+            "/programs/2026/projects/qvKxDk2q",
+            "/programs/2026/projects/Zzw7rfIO",
+            "/programs/2026/projects/Hy1Nuf2c",
+            "/programs/2026/projects/g9NmhGww",
+            "/programs/2026/projects/lAGUkzor",
+            "/programs/2026/projects/ploEKSl6",
+            "/programs/2026/projects/DKC6wxoY",
+            "/programs/2026/projects/YOzRaDeg"
+        ]
+    },
+    {
+        "name": "gprMax",
+        "slug": "gprmax",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gprmax",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/DI0v1kpA",
+            "/programs/2026/projects/lXqoi4wN",
+            "/programs/2026/projects/uGyoXWw9"
+        ]
+    },
+    {
+        "name": "VideoLAN",
+        "slug": "videolan",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/videolan",
+        "project_count": 15,
+        "projects": [
+            "/programs/2026/projects/TiL8U1Yt",
+            "/programs/2026/projects/vKDBmDMm",
+            "/programs/2026/projects/01ooIHOz",
+            "/programs/2026/projects/0nSXpKBi",
+            "/programs/2026/projects/d5uRQXQP",
+            "/programs/2026/projects/V58WwGKM",
+            "/programs/2026/projects/yFcabyJR",
+            "/programs/2026/projects/gB256bA7",
+            "/programs/2026/projects/bjrMOpV4",
+            "/programs/2026/projects/5id0dM0W",
+            "/programs/2026/projects/73OtMv1b",
+            "/programs/2026/projects/J25VvhNZ",
+            "/programs/2026/projects/b3IR2BZS",
+            "/programs/2026/projects/lOK2jslM",
+            "/programs/2026/projects/M1LjyZDM"
+        ]
+    },
+    {
+        "name": "OpenMS Inc",
+        "slug": "openms-inc",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/openms-inc",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/hCRfJoNQ",
+            "/programs/2026/projects/ogwhB7zA",
+            "/programs/2026/projects/kLHenMf3"
+        ]
+    },
+    {
+        "name": "DeepChem",
+        "slug": "deepchem",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/deepchem",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/VuaVP0ST",
+            "/programs/2026/projects/4kljNBvk",
+            "/programs/2026/projects/VzYAsPDu",
+            "/programs/2026/projects/v6SCnrOa",
+            "/programs/2026/projects/mIniGNM6"
+        ]
+    },
+    {
+        "name": "Metaflow",
+        "slug": "metaflow",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/metaflow",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/gcqp54nN",
+            "/programs/2026/projects/CHPHErXK"
+        ]
+    },
+    {
+        "name": "Kotlin Foundation",
+        "slug": "kotlin-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/kotlin-foundation",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/sJkheg4K",
+            "/programs/2026/projects/ZiHM31P7"
+        ]
+    },
+    {
+        "name": "The Julia Language",
+        "slug": "the-julia-language",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-julia-language",
+        "project_count": 12,
+        "projects": [
+            "/programs/2026/projects/lzS59FMG",
+            "/programs/2026/projects/WCXj4K8n",
+            "/programs/2026/projects/6UgT3DI2",
+            "/programs/2026/projects/fT22brOX",
+            "/programs/2026/projects/WQuvjY26",
+            "/programs/2026/projects/ZEaHtnWu",
+            "/programs/2026/projects/MuCOYt2C",
+            "/programs/2026/projects/VvgBXe8Y",
+            "/programs/2026/projects/vlJyyQi2",
+            "/programs/2026/projects/urgppqMn",
+            "/programs/2026/projects/gZvz8vOK",
+            "/programs/2026/projects/SV281F4e"
+        ]
+    },
+    {
+        "name": "FOSSASIA",
+        "slug": "fossasia-bg",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/fossasia-bg",
+        "project_count": 19,
+        "projects": [
+            "/programs/2026/projects/Ao4jDrG2",
+            "/programs/2026/projects/DdK1Ocuw",
+            "/programs/2026/projects/tCUaOJdX",
+            "/programs/2026/projects/4mtLHcWw",
+            "/programs/2026/projects/HptNqfdF",
+            "/programs/2026/projects/PEjMxNoN",
+            "/programs/2026/projects/1Q579zAu",
+            "/programs/2026/projects/eyJnXkkA",
+            "/programs/2026/projects/9lVkSWi0",
+            "/programs/2026/projects/wZkAhBkI",
+            "/programs/2026/projects/v7q8EkwG",
+            "/programs/2026/projects/buIaxoqh",
+            "/programs/2026/projects/a3LRu42G",
+            "/programs/2026/projects/dkDLJ2XY",
+            "/programs/2026/projects/yqLOpnbh",
+            "/programs/2026/projects/QFuYMrw2",
+            "/programs/2026/projects/8ZV8pTIV",
+            "/programs/2026/projects/T02maVDh",
+            "/programs/2026/projects/PPJzbhFU"
+        ]
+    },
+    {
+        "name": "OWASP Foundation",
+        "slug": "owasp-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/owasp-foundation",
+        "project_count": 26,
+        "projects": [
+            "/programs/2026/projects/JJdC06oE",
+            "/programs/2026/projects/3HBgXzPB",
+            "/programs/2026/projects/haVXXfc9",
+            "/programs/2026/projects/xPVHAF77",
+            "/programs/2026/projects/PGWkBspc",
+            "/programs/2026/projects/fNkgvR9T",
+            "/programs/2026/projects/YuZ4YAxs",
+            "/programs/2026/projects/BkhVBLmj",
+            "/programs/2026/projects/AGHe8ngy",
+            "/programs/2026/projects/gmmt3GL0",
+            "/programs/2026/projects/BsoRjwFz",
+            "/programs/2026/projects/qM5lk3Ev",
+            "/programs/2026/projects/NGv7AdEq",
+            "/programs/2026/projects/bXf3xzco",
+            "/programs/2026/projects/uKmYKXpd",
+            "/programs/2026/projects/KHC9YGfD",
+            "/programs/2026/projects/rZEnG8jn",
+            "/programs/2026/projects/tQmdQhv5",
+            "/programs/2026/projects/XpIvwSE0",
+            "/programs/2026/projects/Dxqt5Tsd",
+            "/programs/2026/projects/QohPCsGR",
+            "/programs/2026/projects/P111RWGq",
+            "/programs/2026/projects/qeGHeh6D",
+            "/programs/2026/projects/7Xzkiomm",
+            "/programs/2026/projects/yMt8nTOX",
+            "/programs/2026/projects/slWUm8k0"
+        ]
+    },
+    {
+        "name": "Global Alliance for Genomics and Health",
+        "slug": "global-alliance-for-genomics-and-health",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/global-alliance-for-genomics-and-health",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/yWbLMrnl",
+            "/programs/2026/projects/AWHWIvlO",
+            "/programs/2026/projects/997teXbd",
+            "/programs/2026/projects/EvXaLmnC"
+        ]
+    },
+    {
+        "name": "Haskell.org",
+        "slug": "haskellorg",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/haskellorg",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/WwGiEzzO",
+            "/programs/2026/projects/lnBMUfdU",
+            "/programs/2026/projects/WKEV8qIK"
+        ]
+    },
+    {
+        "name": "Meshery",
+        "slug": "meshery",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/meshery",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/2sVTWiuM",
+            "/programs/2026/projects/cDDDPOD5",
+            "/programs/2026/projects/fKuremWb",
+            "/programs/2026/projects/sSDfcEag",
+            "/programs/2026/projects/9wfkmRF3"
+        ]
+    },
+    {
+        "name": "Debian",
+        "slug": "debian",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/debian",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/hwdmjPwn",
+            "/programs/2026/projects/ZSK7sTPj",
+            "/programs/2026/projects/Qx3OtgKl",
+            "/programs/2026/projects/iXHT14Tv",
+            "/programs/2026/projects/MEfbLvfZ"
+        ]
+    },
+    {
+        "name": "GNU Radio",
+        "slug": "gnu-radio",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/gnu-radio",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/wLfV60LS",
+            "/programs/2026/projects/XtWlavcb",
+            "/programs/2026/projects/002sQ2Ri"
+        ]
+    },
+    {
+        "name": "Mixxx",
+        "slug": "mixxx",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/mixxx",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/kEDmkJTi",
+            "/programs/2026/projects/ZZPd1YLV",
+            "/programs/2026/projects/yj85UCzW"
+        ]
+    },
+    {
+        "name": "Cuneiform Digital Library Initiative (CDLI)",
+        "slug": "cuneiform-digital-library-initiative-cdli",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/cuneiform-digital-library-initiative-cdli",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/mlVyalno",
+            "/programs/2026/projects/nrwAEiGp",
+            "/programs/2026/projects/vsvgRjPJ",
+            "/programs/2026/projects/kdlysn5f"
+        ]
+    },
+    {
+        "name": "GRAME",
+        "slug": "grame",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/grame",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/UlSUtgZt",
+            "/programs/2026/projects/8wYhjpfe"
+        ]
+    },
+    {
+        "name": "Drupal Association",
+        "slug": "drupal-association",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/drupal-association",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/eArj9nox",
+            "/programs/2026/projects/wRuXUxfQ",
+            "/programs/2026/projects/Yo75o3Bu",
+            "/programs/2026/projects/8G1nYIR8",
+            "/programs/2026/projects/C09HAZpF"
+        ]
+    },
+    {
+        "name": "dora-rs",
+        "slug": "dora-rs-tb",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/dora-rs-tb",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/9T7OWcEg",
+            "/programs/2026/projects/qQnX0Sl1",
+            "/programs/2026/projects/77s0dUI7",
+            "/programs/2026/projects/DgJ4nyFL"
+        ]
+    },
+    {
+        "name": "Synfig",
+        "slug": "synfig",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/synfig",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/02jc4MOG",
+            "/programs/2026/projects/nDSe18rH"
+        ]
+    },
+    {
+        "name": "Jenkins",
+        "slug": "jenkins-wp",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/jenkins-wp",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/PatSimkI",
+            "/programs/2026/projects/8HjidPHI",
+            "/programs/2026/projects/EKPXcFjp",
+            "/programs/2026/projects/JQbe7wML",
+            "/programs/2026/projects/o95u13lY"
+        ]
+    },
+    {
+        "name": "Learning Equality",
+        "slug": "learning-equality",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/learning-equality",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/2xSSsGhK",
+            "/programs/2026/projects/8sKsJQg7",
+            "/programs/2026/projects/LXjNTcGk"
+        ]
+    },
+    {
+        "name": "Metasploit",
+        "slug": "metasploit",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/metasploit",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/7MfS5bHy",
+            "/programs/2026/projects/2ejvuiQh",
+            "/programs/2026/projects/l9bwLvDN"
+        ]
+    },
+    {
+        "name": "Joomla!",
+        "slug": "joomla",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/joomla",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/VBXfqNqD",
+            "/programs/2026/projects/fcmjILkz",
+            "/programs/2026/projects/ptJLd27k"
+        ]
+    },
+    {
+        "name": "Oppia Foundation",
+        "slug": "oppia-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/oppia-foundation",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/FcDeHy1w",
+            "/programs/2026/projects/yadlPijj",
+            "/programs/2026/projects/aN58isLo",
+            "/programs/2026/projects/tBVtm65a",
+            "/programs/2026/projects/DLicszJv",
+            "/programs/2026/projects/PGBqDWHQ",
+            "/programs/2026/projects/beDnbp75"
+        ]
+    },
+    {
+        "name": "Pharo Consortium",
+        "slug": "pharo-consortium",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/pharo-consortium",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/VKt8YCDg",
+            "/programs/2026/projects/TvMycRxO",
+            "/programs/2026/projects/m2qt251f",
+            "/programs/2026/projects/aTW8KjSB",
+            "/programs/2026/projects/KQQy0Sp4"
+        ]
+    },
+    {
+        "name": "The Rust Foundation",
+        "slug": "the-rust-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-rust-foundation",
+        "project_count": 13,
+        "projects": [
+            "/programs/2026/projects/AObylxqh",
+            "/programs/2026/projects/jP7dTlN6",
+            "/programs/2026/projects/Fx0vHvcq",
+            "/programs/2026/projects/eF3fkjrN",
+            "/programs/2026/projects/TBpqK07H",
+            "/programs/2026/projects/g4xMTT5l",
+            "/programs/2026/projects/xFrskRCv",
+            "/programs/2026/projects/Wg1mCCHL",
+            "/programs/2026/projects/lif4YQOE",
+            "/programs/2026/projects/svblODn5",
+            "/programs/2026/projects/gzkF5BG0",
+            "/programs/2026/projects/Aak8J6RB",
+            "/programs/2026/projects/l4jlMDP9"
+        ]
+    },
+    {
+        "name": "MetaBrainz Foundation Inc",
+        "slug": "metabrainz-foundation-inc",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/metabrainz-foundation-inc",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/zxdS1mT4",
+            "/programs/2026/projects/8UUWLvil",
+            "/programs/2026/projects/RsmtcLVO",
+            "/programs/2026/projects/DK5pJkwJ",
+            "/programs/2026/projects/R5i56XqC",
+            "/programs/2026/projects/PVkWg0pq",
+            "/programs/2026/projects/eGFJ8YZe"
+        ]
+    },
+    {
+        "name": "SymPy",
+        "slug": "sympy",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/sympy",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/P2DbjEp2",
+            "/programs/2026/projects/4hr0SZPK",
+            "/programs/2026/projects/8qaoacDm",
+            "/programs/2026/projects/PTyd6ZXi",
+            "/programs/2026/projects/i3j6Xcjo"
+        ]
+    },
+    {
+        "name": "libssh",
+        "slug": "libssh",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/libssh",
+        "project_count": 1,
+        "projects": [
+            "/programs/2026/projects/Ot39Kd2J"
+        ]
+    },
+    {
+        "name": "OpenMRS",
+        "slug": "openmrs",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/openmrs",
+        "project_count": 8,
+        "projects": [
+            "/programs/2026/projects/jhVBlEyJ",
+            "/programs/2026/projects/v08A4Eyj",
+            "/programs/2026/projects/aztLK92Z",
+            "/programs/2026/projects/7hshi4A5",
+            "/programs/2026/projects/RmdXpsNp",
+            "/programs/2026/projects/jEe1AMSS",
+            "/programs/2026/projects/kw6z2hvb",
+            "/programs/2026/projects/RyboZdrJ"
+        ]
+    },
+    {
+        "name": "OSGeo (Open Source Geospatial Foundation)",
+        "slug": "osgeo-open-source-geospatial-foundation",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/osgeo-open-source-geospatial-foundation",
+        "project_count": 6,
+        "projects": [
+            "/programs/2026/projects/YflwazxR",
+            "/programs/2026/projects/945pDu8d",
+            "/programs/2026/projects/IdmxfGDK",
+            "/programs/2026/projects/PPwJseX9",
+            "/programs/2026/projects/Dd4a2hsK",
+            "/programs/2026/projects/UmLEBaWM"
+        ]
+    },
+    {
+        "name": "CGAL Project",
+        "slug": "cgal-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/cgal-project",
+        "project_count": 7,
+        "projects": [
+            "/programs/2026/projects/LDQLCNLF",
+            "/programs/2026/projects/ttOfqQB7",
+            "/programs/2026/projects/sSDJMWLc",
+            "/programs/2026/projects/dRG95XCt",
+            "/programs/2026/projects/CUZ1O4hV",
+            "/programs/2026/projects/GqDcvdfV",
+            "/programs/2026/projects/8PoqEVF0"
+        ]
+    },
+    {
+        "name": "RTEMS Project",
+        "slug": "rtems-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/rtems-project",
+        "project_count": 8,
+        "projects": [
+            "/programs/2026/projects/5n964jB6",
+            "/programs/2026/projects/mixRtTp4",
+            "/programs/2026/projects/b7KoR81l",
+            "/programs/2026/projects/fjfU0LnW",
+            "/programs/2026/projects/MXHAMXDA",
+            "/programs/2026/projects/4nKcLIiO",
+            "/programs/2026/projects/iDOmLHyB",
+            "/programs/2026/projects/kffP1OQ6"
+        ]
+    },
+    {
+        "name": "Open Food Facts",
+        "slug": "open-food-facts",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/open-food-facts",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/5VCJ3qDe",
+            "/programs/2026/projects/gUHQOgZp",
+            "/programs/2026/projects/KFCaNXs9"
+        ]
+    },
+    {
+        "name": "JdeRobot",
+        "slug": "jderobot",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/jderobot",
+        "project_count": 5,
+        "projects": [
+            "/programs/2026/projects/BeNGJ19h",
+            "/programs/2026/projects/iinIsP1L",
+            "/programs/2026/projects/KfNodmMd",
+            "/programs/2026/projects/D7QIrlxe",
+            "/programs/2026/projects/1lzN79bZ"
+        ]
+    },
+    {
+        "name": "MIT App Inventor",
+        "slug": "mit-app-inventor",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/mit-app-inventor",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/HDaxXVBH",
+            "/programs/2026/projects/sxZpFLJk",
+            "/programs/2026/projects/4mPSD4K9"
+        ]
+    },
+    {
+        "name": "52°North Spatial Information Research GmbH",
+        "slug": "52north-spatial-information-research-gmbh",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/52north-spatial-information-research-gmbh",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/LkmPhSQT",
+            "/programs/2026/projects/GrdiADk8"
+        ]
+    },
+    {
+        "name": "MLLAM",
+        "slug": "mllam",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/mllam",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/1GFUKY85",
+            "/programs/2026/projects/ancIRkdm"
+        ]
+    },
+    {
+        "name": "GeomScale",
+        "slug": "geomscale",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/geomscale",
+        "project_count": 4,
+        "projects": [
+            "/programs/2026/projects/psrE3mJN",
+            "/programs/2026/projects/ciDSr4zE",
+            "/programs/2026/projects/v3zfwT2O",
+            "/programs/2026/projects/W4crOMpg"
+        ]
+    },
+    {
+        "name": "Swift",
+        "slug": "swift",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/swift",
+        "project_count": 3,
+        "projects": [
+            "/programs/2026/projects/jSfvgdVP",
+            "/programs/2026/projects/eRaEOB44",
+            "/programs/2026/projects/9nlNGN2W"
+        ]
+    },
+    {
+        "name": "MariaDB",
+        "slug": "mariadb",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/mariadb",
+        "project_count": 8,
+        "projects": [
+            "/programs/2026/projects/iGtC9OQN",
+            "/programs/2026/projects/sdzsSCYy",
+            "/programs/2026/projects/oDTq1At7",
+            "/programs/2026/projects/cWZE90p8",
+            "/programs/2026/projects/5pbc9jAx",
+            "/programs/2026/projects/9jm92FIi",
+            "/programs/2026/projects/w0j0wIbK",
+            "/programs/2026/projects/Sm7YDGQ1"
+        ]
+    },
+    {
+        "name": "The FreeBSD Project",
+        "slug": "the-freebsd-project",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/the-freebsd-project",
+        "project_count": 10,
+        "projects": [
+            "/programs/2026/projects/ifJw35cl",
+            "/programs/2026/projects/RNVGFK81",
+            "/programs/2026/projects/aj0Va3rX",
+            "/programs/2026/projects/v1aOh9Kb",
+            "/programs/2026/projects/WqwqJvjx",
+            "/programs/2026/projects/FtgU97mx",
+            "/programs/2026/projects/rXxNSKfZ",
+            "/programs/2026/projects/3hqG6SZS",
+            "/programs/2026/projects/USThq7rZ",
+            "/programs/2026/projects/KiQz59hz"
+        ]
+    },
+    {
+        "name": "preCICE",
+        "slug": "precice",
+        "url": "https://summerofcode.withgoogle.com/programs/2026/organizations/precice",
+        "project_count": 2,
+        "projects": [
+            "/programs/2026/projects/aOVmweGe",
+            "/programs/2026/projects/geaBE2Hg"
+        ]
+    }
+]
