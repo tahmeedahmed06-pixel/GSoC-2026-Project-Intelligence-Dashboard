@@ -378,7 +378,6 @@ button:hover {{
     gap: 24px;
 }}
 
-
 /* =========================================================
    SEARCH RESULTS
    ========================================================= */
@@ -387,85 +386,155 @@ button:hover {{
 
     padding:
         10px 22px 22px;
+
 }}
+
 
 .result {{
 
+    position: relative;
+
     padding:
-        16px 0;
+        18px 4px 20px;
 
     border-bottom:
         1px solid #252c42;
+
+    transition:
+        background 0.2s ease;
+
 }}
+
 
 .result:last-child {{
 
     border-bottom:
         none;
+
 }}
+
+
+.result:hover {{
+
+    background:
+        rgba(99, 102, 241, 0.04);
+
+}}
+
 
 .result-title {{
 
-    font-size: 16px;
+    padding-right:
+        80px;
 
-    font-weight: 650;
+    font-size:
+        16px;
+
+    font-weight:
+        650;
+
+    line-height:
+        1.45;
 
     color:
         #e8ecf7;
+
 }}
+
 
 .result-org {{
 
-    margin-top: 5px;
+    margin-top:
+        6px;
 
     color:
         #818cf8;
 
-    font-size: 13px;
+    font-size:
+        13px;
+
+    font-weight:
+        600;
+
 }}
+
 
 .result-meta {{
 
-    margin-top: 8px;
+    margin-top:
+        10px;
 
     color:
         #9ba6c1;
 
-    font-size: 12px;
+    font-size:
+        12px;
 
-    line-height: 1.7;
+    line-height:
+        1.8;
+
 }}
+
 
 .result-link {{
 
-    display: inline-block;
+    display:
+        inline-block;
 
-    margin-top: 8px;
+    margin-top:
+        10px;
 
     color:
         #818cf8;
 
-    font-size: 12px;
+    font-size:
+        12px;
 
-    text-decoration: none;
+    font-weight:
+        600;
+
+    text-decoration:
+        none;
+
 }}
+
 
 .result-link:hover {{
 
     text-decoration:
         underline;
+
 }}
+
 
 .score {{
 
-    float: right;
+    float:
+        right;
+
+    padding:
+        4px 8px;
+
+    border:
+        1px solid
+        rgba(245, 158, 11, 0.25);
+
+    border-radius:
+        6px;
+
+    background:
+        rgba(245, 158, 11, 0.08);
 
     color:
         #f59e0b;
 
-    font-size: 12px;
-}}
+    font-size:
+        11px;
 
+    font-weight:
+        650;
+
+}}
 
 /* =========================================================
    NOTE
