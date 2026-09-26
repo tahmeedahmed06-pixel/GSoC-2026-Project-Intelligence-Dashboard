@@ -1,0 +1,1654 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>GSoC 2026 Opportunity Heatmap</title>
+
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family:
+        Inter,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    background: #0b1020;
+
+    color: #e8ecf7;
+}
+
+header {
+
+    padding:
+        30px 42px 24px;
+
+    border-bottom:
+        1px solid #252c42;
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 30px;
+}
+
+.subtitle {
+
+    margin-top: 8px;
+
+    color: #9ba6c1;
+}
+
+.container {
+
+    padding:
+        28px 42px 50px;
+}
+
+/* =========================================================
+   SEARCH
+   ========================================================= */
+
+.search-panel {
+
+    background: #12182a;
+
+    border:
+        1px solid #252c42;
+
+    border-radius: 12px;
+
+    padding: 20px;
+
+    margin-bottom: 24px;
+}
+
+.search-row {
+
+    display: flex;
+
+    gap: 10px;
+}
+
+.search-input {
+
+    flex: 1;
+
+    padding:
+        13px 15px;
+
+    border:
+        1px solid #303951;
+
+    border-radius: 8px;
+
+    background: #0b1020;
+
+    color: #ffffff;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+.search-input:focus {
+
+    border-color:
+        #6366f1;
+}
+
+button {
+
+    border: none;
+
+    border-radius: 8px;
+
+    padding:
+        0 20px;
+
+    background:
+        #6366f1;
+
+    color: white;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+button:hover {
+
+    background:
+        #4f46e5;
+}
+
+.reset-button {
+
+    background:
+        #252c42;
+}
+
+.reset-button:hover {
+
+    background:
+        #303951;
+}
+
+.search-info {
+
+    margin-top: 12px;
+
+    color:
+        #9ba6c1;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   CARDS
+   ========================================================= */
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(150px, 1fr));
+
+    gap: 16px;
+
+    margin-bottom: 24px;
+}
+
+.card {
+
+    background: #12182a;
+
+    border:
+        1px solid #252c42;
+
+    border-radius: 12px;
+
+    padding: 20px;
+}
+
+.card-label {
+
+    color:
+        #8e99b5;
+
+    font-size: 13px;
+}
+
+.card-value {
+
+    margin-top: 8px;
+
+    font-size: 28px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   PANELS
+   ========================================================= */
+
+.panel {
+
+    background:
+        #12182a;
+
+    border:
+        1px solid #252c42;
+
+    border-radius: 12px;
+
+    margin-bottom: 24px;
+
+    overflow: hidden;
+}
+
+.panel-header {
+
+    padding:
+        18px 22px;
+
+    border-bottom:
+        1px solid #252c42;
+}
+
+.panel-title {
+
+    font-size: 18px;
+
+    font-weight: 650;
+}
+
+.panel-description {
+
+    color:
+        #8e99b5;
+
+    font-size: 13px;
+
+    margin-top: 5px;
+}
+
+.chart {
+
+    width: 100%;
+
+    height: 500px;
+}
+
+.two-column {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 24px;
+}
+
+
+/* =========================================================
+   SEARCH RESULTS
+   ========================================================= */
+
+.results-container {
+
+    padding:
+        10px 22px 22px;
+}
+
+.result {
+
+    padding:
+        16px 0;
+
+    border-bottom:
+        1px solid #252c42;
+}
+
+.result:last-child {
+
+    border-bottom:
+        none;
+}
+
+.result-title {
+
+    font-size: 16px;
+
+    font-weight: 650;
+
+    color:
+        #e8ecf7;
+}
+
+.result-org {
+
+    margin-top: 5px;
+
+    color:
+        #818cf8;
+
+    font-size: 13px;
+}
+
+.result-meta {
+
+    margin-top: 8px;
+
+    color:
+        #9ba6c1;
+
+    font-size: 12px;
+
+    line-height: 1.7;
+}
+
+.result-link {
+
+    display: inline-block;
+
+    margin-top: 8px;
+
+    color:
+        #818cf8;
+
+    font-size: 12px;
+
+    text-decoration: none;
+}
+
+.result-link:hover {
+
+    text-decoration:
+        underline;
+}
+
+.score {
+
+    float: right;
+
+    color:
+        #f59e0b;
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   NOTE
+   ========================================================= */
+
+.note {
+
+    padding:
+        18px 22px;
+
+    color:
+        #9ba6c1;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .cards {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .two-column {
+
+        grid-template-columns:
+            1fr;
+    }
+
+    .container {
+
+        padding:
+            20px;
+    }
+
+    header {
+
+        padding:
+            25px 20px;
+    }
+
+    .search-row {
+
+        flex-direction:
+            column;
+    }
+
+    button {
+
+        height:
+            44px;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>
+GSoC 2026 Opportunity Heatmap
+</h1>
+
+<div class="subtitle">
+
+Public-data analysis of GSoC 2026 projects,
+organizations, technologies and topics
+
+</div>
+
+</header>
+
+
+<div class="container">
+
+
+<!-- ===================================================== -->
+<!-- SEARCH -->
+<!-- ===================================================== -->
+
+<div class="search-panel">
+
+<div class="search-row">
+
+<input
+    id="searchInput"
+    class="search-input"
+    type="text"
+    placeholder="Search projects... e.g. Rust LLVM"
+>
+
+<button onclick="performSearch()">
+Search
+</button>
+
+<button
+    class="reset-button"
+    onclick="resetSearch()"
+>
+Reset
+</button>
+
+</div>
+
+
+<div
+    id="searchInfo"
+    class="search-info"
+>
+Search across the GSoC 2026 project dataset.
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- SUMMARY -->
+<!-- ===================================================== -->
+
+<div class="cards">
+
+
+<div class="card">
+
+<div class="card-label">
+Projects
+</div>
+
+<div
+    class="card-value"
+    id="projectCount"
+>
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="card-label">
+Organizations
+</div>
+
+<div
+    class="card-value"
+    id="organizationCount"
+>
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="card-label">
+Technologies
+</div>
+
+<div
+    class="card-value"
+    id="technologyCount"
+>
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="card-label">
+Topics
+</div>
+
+<div
+    class="card-value"
+    id="topicCount"
+>
+</div>
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- HEATMAP -->
+<!-- ===================================================== -->
+
+<div class="panel">
+
+<div class="panel-header">
+
+<div class="panel-title">
+Technology × Organization
+</div>
+
+<div
+    class="panel-description"
+    id="heatmapDescription"
+>
+
+Number of GSoC 2026 projects connecting
+each technology with each organization.
+
+</div>
+
+</div>
+
+
+<div
+    id="heatmap"
+    class="chart"
+>
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- SEARCH RESULTS -->
+<!-- ===================================================== -->
+
+<div
+    class="panel"
+    id="resultsPanel"
+    style="display:none;"
+>
+
+<div class="panel-header">
+
+<div class="panel-title">
+Matching Projects
+</div>
+
+<div class="panel-description">
+Projects returned by the GSoC search engine.
+</div>
+
+</div>
+
+
+<div
+    id="results"
+    class="results-container"
+>
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- STATISTICS -->
+<!-- ===================================================== -->
+
+<div class="two-column">
+
+
+<div class="panel">
+
+<div class="panel-header">
+
+<div class="panel-title">
+Top Technologies
+</div>
+
+<div class="panel-description">
+Number of projects tagged with each technology.
+</div>
+
+</div>
+
+
+<div
+    id="technologies"
+    class="chart"
+>
+</div>
+
+</div>
+
+
+<div class="panel">
+
+<div class="panel-header">
+
+<div class="panel-title">
+Top Organizations
+</div>
+
+<div class="panel-description">
+Number of projects associated with each organization.
+</div>
+
+</div>
+
+
+<div
+    id="organizations"
+    class="chart"
+>
+</div>
+
+</div>
+
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- TOPICS -->
+<!-- ===================================================== -->
+
+<div class="panel">
+
+<div class="panel-header">
+
+<div class="panel-title">
+Top Topics
+</div>
+
+<div class="panel-description">
+Number of GSoC 2026 projects associated with each topic.
+</div>
+
+</div>
+
+
+<div
+    id="topics"
+    class="chart"
+>
+</div>
+
+</div>
+
+
+<!-- ===================================================== -->
+<!-- NOTE -->
+<!-- ===================================================== -->
+
+<div class="panel">
+
+<div class="note">
+
+<strong>Important:</strong>
+
+This dashboard does not represent actual visitor
+clicks, Google Analytics data, or the number of people
+viewing an organization.
+
+The heat intensity represents the number of publicly
+available GSoC 2026 projects connecting two entities.
+
+It is therefore an
+<strong>opportunity / ecosystem heatmap</strong>,
+not a visitor-behavior heatmap.
+
+</div>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+
+const DATA = {"metadata": {"dataset": "GSoC 2026", "total_projects": 1102, "total_organizations": 183}, "technologyStats": [{"name": "python", "count": 461}, {"name": "c++", "count": 165}, {"name": "javascript", "count": 140}, {"name": "typescript", "count": 125}, {"name": "docker", "count": 115}, {"name": "c", "count": 112}, {"name": "java", "count": 75}, {"name": "react", "count": 75}, {"name": "git", "count": 72}, {"name": "rust", "count": 72}, {"name": "pytorch", "count": 67}, {"name": "github actions", "count": 65}, {"name": "postgresql", "count": 64}, {"name": "django", "count": 57}, {"name": "numpy", "count": 55}, {"name": "linux", "count": 53}, {"name": "pytest", "count": 49}, {"name": "cmake", "count": 44}, {"name": "css", "count": 40}, {"name": "json", "count": 39}, {"name": "rest api", "count": 39}, {"name": "node.js", "count": 38}, {"name": "html", "count": 37}, {"name": "yaml", "count": 37}, {"name": "fastapi", "count": 32}, {"name": "go", "count": 30}, {"name": "flutter", "count": 30}, {"name": "cuda", "count": 29}, {"name": "sqlite", "count": 28}, {"name": "sql", "count": 28}], "organizationStats": [{"name": "Apache Software Foundation", "count": 34}, {"name": "Machine Learning for Science (ML4SCI)", "count": 31}, {"name": "OWASP Foundation", "count": 26}, {"name": "NumFOCUS", "count": 26}, {"name": "CERN-HSF", "count": 25}, {"name": "R project for statistical computing", "count": 25}, {"name": "INCF", "count": 22}, {"name": "AOSSIE", "count": 21}, {"name": "FOSSASIA", "count": 19}, {"name": "The Linux Foundation", "count": 18}, {"name": "OpenVINO Toolkit", "count": 17}, {"name": "VideoLAN", "count": 15}, {"name": "UC OSPO", "count": 15}, {"name": "C2SI", "count": 14}, {"name": "Python Software Foundation", "count": 13}, {"name": "The Rust Foundation", "count": 13}, {"name": "The Mifos Initiative", "count": 13}, {"name": "HumanAI", "count": 13}, {"name": "The Julia Language", "count": 12}, {"name": "International Catrobat Association", "count": 12}, {"name": "Zulip", "count": 11}, {"name": "KDE Community", "count": 11}, {"name": "LLVM Compiler Infrastructure", "count": 11}, {"name": "rocket.chat", "count": 10}, {"name": "The FreeBSD Project", "count": 10}, {"name": "Sugar Labs", "count": 10}, {"name": "Liquid Galaxy project", "count": 10}, {"name": "Wikimedia Foundation", "count": 8}, {"name": "Alaska", "count": 8}, {"name": "RTEMS Project", "count": 8}], "topicStats": [{"name": "machine learning", "count": 145}, {"name": "web", "count": 134}, {"name": "open source", "count": 66}, {"name": "scientific computing", "count": 57}, {"name": "security", "count": 54}, {"name": "web development", "count": 52}, {"name": "testing", "count": 48}, {"name": "developer tools", "count": 46}, {"name": "networking", "count": 45}, {"name": "systems programming", "count": 43}, {"name": "deep learning", "count": 42}, {"name": "devops", "count": 40}, {"name": "ci/cd", "count": 39}, {"name": "artificial intelligence", "count": 39}, {"name": "data visualization", "count": 37}, {"name": "automation", "count": 37}, {"name": "backend", "count": 36}, {"name": "graphics", "count": 35}, {"name": "cloud", "count": 35}, {"name": "computer vision", "count": 34}, {"name": "distributed systems", "count": 33}, {"name": "frontend", "count": 31}, {"name": "ui/ux", "count": 30}, {"name": "natural language processing", "count": 30}, {"name": "compilers", "count": 28}, {"name": "education", "count": 26}, {"name": "operating systems", "count": 24}, {"name": "performance optimization", "count": 24}, {"name": "ai", "count": 24}, {"name": "robotics", "count": 23}], "technologyNames": ["python", "c++", "javascript", "typescript", "docker", "c", "java", "react", "git", "rust", "pytorch", "github actions", "postgresql", "django", "numpy", "linux", "pytest", "cmake", "css", "json"], "organizationNames": ["Apache Software Foundation", "Machine Learning for Science (ML4SCI)", "OWASP Foundation", "NumFOCUS", "CERN-HSF", "R project for statistical computing", "INCF", "AOSSIE", "FOSSASIA", "The Linux Foundation", "OpenVINO Toolkit", "VideoLAN", "UC OSPO", "C2SI", "Python Software Foundation", "The Rust Foundation", "The Mifos Initiative", "HumanAI", "The Julia Language", "International Catrobat Association", "Zulip", "KDE Community", "LLVM Compiler Infrastructure", "rocket.chat", "The FreeBSD Project", "Sugar Labs", "Liquid Galaxy project", "Wikimedia Foundation", "Alaska", "RTEMS Project"], "matrix": [[11, 1, 0, 3, 6, 6, 17, 1, 1, 4, 0, 4, 3, 0, 0, 2, 1, 1, 1, 1], [25, 0, 0, 0, 1, 0, 0, 0, 3, 0, 20, 0, 0, 0, 12, 0, 1, 0, 0, 0], [24, 0, 4, 6, 11, 0, 0, 2, 3, 1, 0, 5, 6, 6, 0, 1, 3, 0, 1, 2], [18, 0, 0, 0, 0, 1, 0, 0, 4, 0, 5, 1, 0, 0, 7, 1, 4, 1, 0, 0], [18, 13, 0, 1, 2, 1, 0, 0, 1, 1, 4, 0, 2, 1, 2, 5, 1, 5, 0, 2], [3, 6, 2, 0, 0, 2, 0, 0, 2, 1, 2, 3, 0, 0, 1, 0, 0, 0, 0, 0], [13, 2, 1, 4, 1, 0, 1, 2, 2, 0, 2, 1, 1, 1, 2, 2, 2, 0, 0, 0], [5, 0, 3, 11, 3, 0, 0, 8, 0, 1, 1, 4, 0, 0, 1, 0, 1, 0, 0, 0], [13, 0, 13, 2, 5, 0, 0, 2, 0, 0, 2, 1, 5, 9, 0, 0, 1, 0, 0, 0], [5, 2, 1, 1, 0, 5, 0, 1, 3, 2, 0, 2, 0, 0, 0, 3, 1, 1, 0, 2], [10, 8, 1, 1, 1, 0, 0, 1, 1, 0, 4, 0, 0, 0, 1, 0, 0, 1, 0, 0], [2, 4, 0, 1, 0, 7, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], [9, 1, 2, 1, 3, 1, 0, 2, 0, 0, 3, 0, 0, 1, 2, 0, 0, 0, 1, 0], [6, 0, 2, 5, 6, 0, 0, 5, 0, 2, 0, 2, 3, 0, 1, 1, 2, 0, 1, 0], [13, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 2, 0, 0, 2, 0, 1, 0, 0, 1], [1, 1, 0, 0, 0, 1, 0, 0, 0, 13, 0, 2, 0, 0, 0, 1, 0, 0, 0, 0], [5, 0, 1, 4, 2, 0, 4, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3], [10, 0, 1, 1, 1, 0, 0, 1, 0, 0, 4, 0, 0, 0, 1, 0, 0, 0, 0, 1], [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0], [4, 0, 0, 1, 0, 0, 5, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1], [9, 0, 6, 8, 0, 0, 0, 0, 0, 0, 0, 0, 2, 7, 0, 0, 0, 0, 4, 0], [1, 8, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 9, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], [0, 0, 0, 8, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [3, 0, 2, 1, 0, 1, 0, 1, 1, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 0], [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0], [2, 0, 3, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [6, 0, 0, 0, 4, 0, 1, 2, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0], [3, 1, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]]};
+
+
+// ========================================================
+// SUMMARY
+// ========================================================
+
+function setOverallStats() {
+
+    document.getElementById(
+        "projectCount"
+    ).textContent =
+        DATA.metadata.total_projects
+        .toLocaleString();
+
+
+    document.getElementById(
+        "organizationCount"
+    ).textContent =
+        DATA.metadata.total_organizations
+        .toLocaleString();
+
+
+    document.getElementById(
+        "technologyCount"
+    ).textContent =
+        DATA.technologyStats.length
+        .toLocaleString();
+
+
+    document.getElementById(
+        "topicCount"
+    ).textContent =
+        DATA.topicStats.length
+        .toLocaleString();
+
+}
+
+
+setOverallStats();
+
+
+// ========================================================
+// PLOT CONFIG
+// ========================================================
+
+const CONFIG = {
+
+    responsive: true,
+
+    displaylogo: false
+
+};
+
+
+// ========================================================
+// COMMON LAYOUT
+// ========================================================
+
+function baseLayout() {
+
+    return {
+
+        paper_bgcolor:
+            "#12182a",
+
+        plot_bgcolor:
+            "#12182a",
+
+        font: {
+
+            color:
+                "#dbe4ff"
+
+        }
+
+    };
+
+}
+
+
+// ========================================================
+// BUILD HEATMAP
+// ========================================================
+
+function buildHeatmap(
+
+    organizations,
+
+    technologies,
+    matrix,
+    title
+
+) {
+
+    Plotly.react(
+
+        "heatmap",
+
+        [{
+
+            z: matrix,
+
+            x: technologies,
+
+            y: organizations,
+
+            type: "heatmap",
+
+            hovertemplate:
+
+                "<b>%{y}</b><br>" +
+
+                "Technology: %{x}<br>" +
+
+                "Projects: %{z}" +
+
+                "<extra></extra>",
+
+            colorscale: [
+
+                [0, "#111827"],
+
+                [0.2, "#1e3a5f"],
+
+                [0.4, "#2563eb"],
+
+                [0.7, "#7c3aed"],
+
+                [1, "#f59e0b"]
+
+            ],
+
+            showscale: true
+
+        }],
+
+        {
+
+            ...baseLayout(),
+
+            margin: {
+
+                l: 240,
+
+                r: 40,
+
+                t: 30,
+
+                b: 130
+
+            },
+
+            xaxis: {
+
+                title:
+                    "Technology",
+
+                tickangle:
+                    -45
+
+            },
+
+            yaxis: {
+
+                title:
+                    "Organization",
+
+                autorange:
+                    "reversed"
+
+            }
+
+        },
+
+        CONFIG
+
+    );
+
+}
+
+
+// ========================================================
+// ORIGINAL HEATMAP
+// ========================================================
+
+buildHeatmap(
+
+    DATA.organizationNames,
+
+    DATA.technologyNames,
+
+    DATA.matrix,
+
+    "Technology × Organization"
+
+);
+
+
+// ========================================================
+// TECHNOLOGY CHART
+// ========================================================
+
+Plotly.newPlot(
+
+    "technologies",
+
+    [{
+
+        x: DATA.technologyStats
+            .map(x => x.count)
+            .reverse(),
+
+        y: DATA.technologyStats
+            .map(x => x.name)
+            .reverse(),
+
+        type:
+            "bar",
+
+        orientation:
+            "h",
+
+        hovertemplate:
+
+            "<b>%{y}</b><br>" +
+
+            "Projects: %{x}" +
+
+            "<extra></extra>"
+
+    }],
+
+    {
+
+        ...baseLayout(),
+
+        margin: {
+
+            l: 110,
+
+            r: 30,
+
+            t: 20,
+
+            b: 40
+
+        },
+
+        xaxis: {
+
+            title:
+                "Projects"
+
+        }
+
+    },
+
+    CONFIG
+
+);
+
+
+// ========================================================
+// ORGANIZATION CHART
+// ========================================================
+
+Plotly.newPlot(
+
+    "organizations",
+
+    [{
+
+        x: DATA.organizationStats
+            .map(x => x.count)
+            .reverse(),
+
+        y: DATA.organizationStats
+            .map(x => x.name)
+            .reverse(),
+
+        type:
+            "bar",
+
+        orientation:
+            "h",
+
+        hovertemplate:
+
+            "<b>%{y}</b><br>" +
+
+            "Projects: %{x}" +
+
+            "<extra></extra>"
+
+    }],
+
+    {
+
+        ...baseLayout(),
+
+        margin: {
+
+            l: 230,
+
+            r: 30,
+
+            t: 20,
+
+            b: 40
+
+        },
+
+        xaxis: {
+
+            title:
+                "Projects"
+
+        }
+
+    },
+
+    CONFIG
+
+);
+
+
+// ========================================================
+// TOPIC CHART
+// ========================================================
+
+Plotly.newPlot(
+
+    "topics",
+
+    [{
+
+        x: DATA.topicStats
+            .map(x => x.count)
+            .reverse(),
+
+        y: DATA.topicStats
+            .map(x => x.name)
+            .reverse(),
+
+        type:
+            "bar",
+
+        orientation:
+            "h",
+
+        hovertemplate:
+
+            "<b>%{y}</b><br>" +
+
+            "Projects: %{x}" +
+
+            "<extra></extra>"
+
+    }],
+
+    {
+
+        ...baseLayout(),
+
+        margin: {
+
+            l: 160,
+
+            r: 30,
+
+            t: 20,
+
+            b: 40
+
+        },
+
+        xaxis: {
+
+            title:
+                "Projects"
+
+        }
+
+    },
+
+    CONFIG
+
+);
+
+
+// ========================================================
+// SEARCH
+// ========================================================
+
+async function performSearch() {
+
+    const input =
+        document.getElementById(
+            "searchInput"
+        );
+
+    const query =
+        input.value.trim();
+
+
+    if (!query) {
+
+        resetSearch();
+
+        return;
+
+    }
+
+
+    const info =
+        document.getElementById(
+            "searchInfo"
+        );
+
+
+    info.textContent =
+        "Searching...";
+
+
+    try {
+
+        const response =
+            await fetch(
+
+                "http://127.0.0.1:5000/api/search?q=" +
+                encodeURIComponent(query)
+
+            );
+
+
+        const result =
+            await response.json();
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                result.error ||
+                "Search failed"
+            );
+
+        }
+
+
+        displaySearchResults(
+            result
+        );
+
+
+        buildFilteredHeatmap(
+            result.results,
+            query
+        );
+
+
+    } catch (error) {
+
+        info.textContent =
+            "Error: " +
+            error.message;
+
+    }
+
+}
+
+
+// ========================================================
+// DISPLAY SEARCH RESULTS
+// ========================================================
+
+function displaySearchResults(result) {
+
+    const panel =
+        document.getElementById(
+            "resultsPanel"
+        );
+
+    const container =
+        document.getElementById(
+            "results"
+        );
+
+    const info =
+        document.getElementById(
+            "searchInfo"
+        );
+
+
+    panel.style.display =
+        "block";
+
+
+    info.textContent =
+        `Found ${result.count} matching projects`;
+
+
+    container.innerHTML = "";
+
+
+    if (!result.results.length) {
+
+        container.innerHTML =
+            "<div class='result'>" +
+            "No matching projects found." +
+            "</div>";
+
+        return;
+
+    }
+
+
+    for (
+        const project
+        of result.results
+    ) {
+
+        const div =
+            document.createElement(
+                "div"
+            );
+
+
+        div.className =
+            "result";
+
+
+        const technologies =
+            project.technologies
+                .join(", ");
+
+
+        const topics =
+            project.topics
+                .join(", ");
+
+
+        div.innerHTML = `
+
+            <div class="result-title">
+
+                ${escapeHtml(
+                    project.title
+                )}
+
+                <span class="score">
+                    Score: ${project.score}
+                </span>
+
+            </div>
+
+
+            <div class="result-org">
+
+                ${escapeHtml(
+                    project.organization
+                )}
+
+            </div>
+
+
+            <div class="result-meta">
+
+                Technologies:
+                ${escapeHtml(
+                    technologies
+                )}
+
+                <br>
+
+                Topics:
+                ${escapeHtml(
+                    topics
+                )}
+
+                <br>
+
+                Status:
+                ${escapeHtml(
+                    project.status
+                )}
+
+            </div>
+
+
+            <a
+                class="result-link"
+                href="${project.project_url}"
+                target="_blank"
+            >
+                Open GSoC project →
+            </a>
+
+        `;
+
+
+        container.appendChild(
+            div
+        );
+
+    }
+
+}
+
+
+// ========================================================
+// BUILD FILTERED HEATMAP
+// ========================================================
+
+function buildFilteredHeatmap(
+    results,
+    query
+) {
+
+    if (!results.length) {
+
+        document.getElementById(
+            "heatmapDescription"
+        ).textContent =
+            "No projects matched the search.";
+
+        buildHeatmap(
+            [],
+            [],
+            [],
+            query
+        );
+
+        return;
+
+    }
+
+
+    const organizationCounts =
+        {};
+
+
+    const technologyCounts =
+        
+        {};
+
+    const relationships =
+        {};
+
+
+    // -----------------------------------------------------
+    // Collect entities
+    // -----------------------------------------------------
+
+    for (
+        const project
+        of results
+    ) {
+
+        const organization =
+            project.organization;
+
+
+        organizationCounts[
+            organization
+        ] =
+            (
+                organizationCounts[
+                    organization
+                ] || 0
+            ) + 1;
+
+
+        for (
+            const technology
+            of project.technologies
+        ) {
+
+            const normalized =
+                technology
+                    .toLowerCase()
+                    .trim();
+
+
+            technologyCounts[
+                normalized
+            ] =
+                (
+                    technologyCounts[
+                        normalized
+                    ] || 0
+                ) + 1;
+
+
+            if (
+                !relationships[
+                    organization
+                ]
+            ) {
+
+                relationships[
+                    organization
+                ] = {};
+
+            }
+
+
+            relationships[
+                organization
+            ][
+                normalized
+            ] =
+                (
+                    relationships[
+                        organization
+                    ][
+                        normalized
+                    ] || 0
+                ) + 1;
+
+        }
+
+    }
+
+
+    // -----------------------------------------------------
+    // Sort organizations
+    // -----------------------------------------------------
+
+    const organizations =
+        Object.entries(
+            organizationCounts
+        )
+        .sort(
+            (a, b) =>
+                b[1] - a[1]
+        )
+        .map(
+            x => x[0]
+        );
+
+
+    // -----------------------------------------------------
+    // Sort technologies
+    // -----------------------------------------------------
+
+    const technologies =
+        Object.entries(
+            technologyCounts
+        )
+        .sort(
+            (a, b) =>
+                b[1] - a[1]
+        )
+        .map(
+            x => x[0]
+        );
+
+
+    // -----------------------------------------------------
+    // Build matrix
+    // -----------------------------------------------------
+
+    const matrix =
+        organizations.map(
+            organization =>
+
+                technologies.map(
+                    technology =>
+
+                        (
+                            relationships[
+                                organization
+                            ] || {}
+                        )[technology] || 0
+
+                )
+        );
+
+
+    document.getElementById(
+        "heatmapDescription"
+    ).textContent =
+
+        `Filtered heatmap for "${query}" — ` +
+
+        `${results.length} matching projects`;
+
+
+    buildHeatmap(
+        organizations,
+        technologies,
+        matrix,
+        query
+    );
+
+}
+
+
+// ========================================================
+// RESET
+// ========================================================
+
+function resetSearch() {
+
+    document.getElementById(
+        "searchInput"
+    ).value = "";
+
+
+    document.getElementById(
+        "searchInfo"
+    ).textContent =
+
+        "Search across the GSoC 2026 project dataset.";
+
+
+    document.getElementById(
+        "resultsPanel"
+    ).style.display =
+        "none";
+
+
+    document.getElementById(
+        "heatmapDescription"
+    ).textContent =
+
+        "Number of GSoC 2026 projects connecting " +
+        "each technology with each organization.";
+
+
+    buildHeatmap(
+
+        DATA.organizationNames,
+
+        DATA.technologyNames,
+
+        DATA.matrix,
+
+        "Technology × Organization"
+
+    );
+
+}
+
+
+// ========================================================
+// ENTER KEY
+// ========================================================
+
+document.getElementById(
+    "searchInput"
+)
+.addEventListener(
+    "keydown",
+    function(event) {
+
+        if (
+            event.key ===
+            "Enter"
+        ) {
+
+            performSearch();
+
+        }
+
+    }
+);
+
+
+// ========================================================
+// HTML ESCAPE
+// ========================================================
+
+function escapeHtml(value) {
+
+    return String(value)
+
+        .replace(
+            /&/g,
+            "&amp;"
+        )
+
+        .replace(
+            /</g,
+            "&lt;"
+        )
+
+        .replace(
+            />/g,
+            "&gt;"
+        )
+
+        .replace(
+            /"/g,
+            "&quot;"
+        )
+
+        .replace(
+            /'/g,
+            "&#039;"
+        );
+
+}
+
+
+</script>
+
+</body>
+
+</html>
